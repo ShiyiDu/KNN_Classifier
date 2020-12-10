@@ -80,5 +80,5 @@ class KNN:
 
 
 knn = KNN(0.8)
-model = knn.get_model(2, lambda x, y: np.sum((x - y) ** 2), 0.5)
+model = knn.get_model(100, lambda x, y: np.sum((x - y) ** 2), 0.5)
 print(knn.get_loss())
