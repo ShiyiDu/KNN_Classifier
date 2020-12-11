@@ -1,0 +1,2556 @@
+/usr/local/bin/python3.9 /Users/shiyidu/Projects/Githubs/EECS4404_KNN_Project/GA.py
+training set:  725
+validation set:  182
+current generation: 0
+current best individual: [3, 1, 6, 2, 8, 9, 4, 1, 2, 4, 4, 2, 5, 1, 6, 2, 0]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 1
+current best individual: [3, 1, 6, 2, 8, 9, 4, 1, 2, 4, 4, 2, 5, 1, 6, 2, 0]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 2
+current best individual: [1, 2, 1, 1, 4, 1, 6, 7, 8, 4, 5, 6, 9, 9, 7, 5, 7]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 3
+current best individual: [2, 7, 3, 7, 4, 5, 0, 7, 8, 4, 5, 6, 9, 9, 7, 5, 7]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 4
+current best individual: [3, 1, 6, 2, 8, 9, 4, 1, 2, 6, 4, 2, 5, 1, 6, 2, 0]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 5
+current best individual: [3, 1, 6, 2, 8, 9, 4, 1, 2, 6, 4, 2, 5, 1, 6, 2, 0]
+current best fitness(1 - loss): 0.7362637362637363
+training set:  725
+validation set:  182
+current generation: 6
+current best individual: [1, 2, 1, 1, 4, 1, 0, 7, 8, 4, 5, 6, 9, 9, 7, 5, 7]
+current best fitness(1 - loss): 0.7747252747252747
+training set:  725
+validation set:  182
+current generation: 7
+current best individual: [1, 2, 1, 1, 4, 1, 0, 1, 2, 6, 4, 2, 5, 1, 6, 2, 0]
+current best fitness(1 - loss): 0.7362637362637363
+training set:  725
+validation set:  182
+current generation: 8
+current best individual: [2, 1, 6, 2, 8, 9, 4, 7, 8, 4, 5, 6, 9, 6, 7, 5, 7]
+current best fitness(1 - loss): 0.7362637362637363
+training set:  725
+validation set:  182
+current generation: 9
+current best individual: [1, 2, 1, 1, 4, 1, 0, 1, 2, 6, 4, 2, 5, 1, 6, 2, 0]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 10
+current best individual: [1, 2, 1, 1, 4, 1, 0, 7, 8, 4, 5, 6, 9, 6, 7, 5, 7]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 11
+current best individual: [2, 1, 6, 2, 8, 9, 4, 7, 8, 4, 5, 6, 9, 6, 7, 5, 7]
+current best fitness(1 - loss): 0.7527472527472527
+training set:  725
+validation set:  182
+current generation: 12
+current best individual: [2, 1, 6, 2, 8, 9, 4, 7, 2, 6, 5, 6, 9, 6, 7, 5, 7]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 13
+current best individual: [1, 2, 1, 1, 4, 1, 1, 7, 2, 4, 4, 2, 3, 1, 6, 2, 0]
+current best fitness(1 - loss): 0.8131868131868132
+training set:  725
+validation set:  182
+current generation: 14
+current best individual: [1, 2, 1, 1, 4, 1, 1, 7, 2, 4, 4, 2, 3, 1, 6, 2, 0]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 15
+current best individual: [1, 2, 1, 1, 4, 1, 8, 1, 2, 6, 4, 7, 3, 1, 6, 2, 7]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 16
+current best individual: [1, 2, 1, 1, 4, 9, 8, 1, 2, 6, 4, 2, 3, 1, 6, 2, 0]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 17
+current best individual: [1, 2, 1, 1, 4, 9, 8, 1, 2, 6, 4, 2, 3, 1, 6, 2, 0]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 18
+current best individual: [1, 2, 1, 1, 4, 9, 8, 1, 2, 6, 4, 2, 3, 1, 8, 2, 0]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 19
+current best individual: [1, 2, 1, 1, 4, 9, 8, 1, 2, 4, 4, 2, 3, 1, 6, 2, 0]
+current best fitness(1 - loss): 0.7747252747252747
+training set:  725
+validation set:  182
+current generation: 20
+current best individual: [1, 2, 1, 1, 4, 1, 1, 1, 2, 2, 4, 2, 3, 1, 6, 2, 7]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 21
+current best individual: [1, 2, 1, 1, 4, 9, 8, 1, 2, 6, 4, 2, 3, 1, 6, 2, 0]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 22
+current best individual: [1, 2, 1, 1, 9, 9, 8, 1, 2, 6, 4, 2, 3, 1, 8, 2, 0]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 23
+current best individual: [1, 8, 1, 1, 4, 9, 8, 1, 2, 6, 4, 2, 3, 1, 6, 2, 0]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 24
+current best individual: [1, 2, 1, 1, 9, 9, 8, 1, 2, 2, 4, 2, 3, 1, 6, 2, 7]
+current best fitness(1 - loss): 0.8241758241758241
+training set:  725
+validation set:  182
+current generation: 25
+current best individual: [1, 2, 1, 1, 4, 9, 8, 1, 2, 4, 4, 2, 3, 1, 6, 2, 6]
+current best fitness(1 - loss): 0.8241758241758241
+training set:  725
+validation set:  182
+current generation: 26
+current best individual: [1, 2, 1, 1, 9, 9, 8, 1, 2, 2, 4, 2, 3, 1, 6, 2, 7]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 27
+current best individual: [1, 2, 1, 1, 9, 9, 8, 1, 2, 6, 4, 6, 3, 1, 6, 2, 7]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 28
+current best individual: [1, 8, 1, 1, 4, 9, 8, 1, 2, 6, 4, 6, 3, 1, 6, 2, 7]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 29
+current best individual: [1, 2, 1, 1, 9, 9, 8, 1, 2, 6, 1, 6, 3, 1, 6, 2, 7]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 30
+current best individual: [1, 2, 1, 1, 9, 9, 8, 1, 2, 6, 4, 6, 3, 1, 3, 2, 0]
+current best fitness(1 - loss): 0.8461538461538461
+training set:  725
+validation set:  182
+current generation: 31
+current best individual: [1, 2, 1, 1, 9, 9, 8, 1, 2, 4, 4, 2, 3, 1, 6, 2, 0]
+current best fitness(1 - loss): 0.8296703296703296
+training set:  725
+validation set:  182
+current generation: 32
+current best individual: [1, 2, 1, 1, 9, 9, 8, 1, 2, 4, 4, 2, 3, 1, 6, 2, 0]
+current best fitness(1 - loss): 0.8131868131868132
+training set:  725
+validation set:  182
+current generation: 33
+current best individual: [1, 1, 1, 1, 9, 9, 8, 1, 2, 4, 4, 2, 3, 1, 6, 2, 7]
+current best fitness(1 - loss): 0.8076923076923077
+training set:  725
+validation set:  182
+current generation: 34
+current best individual: [1, 1, 1, 1, 9, 9, 8, 1, 2, 2, 4, 2, 3, 1, 6, 2, 0]
+current best fitness(1 - loss): 0.8076923076923077
+training set:  725
+validation set:  182
+current generation: 35
+current best individual: [1, 2, 1, 1, 9, 9, 8, 1, 2, 2, 4, 2, 3, 1, 6, 2, 0]
+current best fitness(1 - loss): 0.7472527472527473
+training set:  725
+validation set:  182
+current generation: 36
+current best individual: [1, 2, 1, 1, 9, 9, 8, 1, 2, 4, 4, 2, 3, 1, 6, 2, 0]
+current best fitness(1 - loss): 0.8076923076923077
+training set:  725
+validation set:  182
+current generation: 37
+current best individual: [1, 2, 1, 1, 9, 9, 8, 1, 2, 4, 4, 2, 3, 1, 6, 2, 0]
+current best fitness(1 - loss): 0.8296703296703296
+training set:  725
+validation set:  182
+current generation: 38
+current best individual: [1, 2, 1, 1, 9, 9, 8, 1, 2, 4, 4, 2, 3, 1, 6, 2, 7]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 39
+current best individual: [1, 2, 1, 1, 9, 9, 8, 1, 2, 4, 4, 2, 3, 1, 6, 2, 7]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 40
+current best individual: [1, 2, 1, 4, 9, 9, 8, 1, 2, 4, 4, 2, 3, 1, 6, 2, 0]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 41
+current best individual: [1, 2, 1, 1, 9, 9, 8, 1, 2, 4, 4, 2, 3, 1, 6, 2, 7]
+current best fitness(1 - loss): 0.7527472527472527
+training set:  725
+validation set:  182
+current generation: 42
+current best individual: [1, 2, 1, 1, 9, 9, 8, 1, 2, 4, 4, 2, 2, 1, 6, 2, 7]
+current best fitness(1 - loss): 0.7142857142857143
+training set:  725
+validation set:  182
+current generation: 43
+current best individual: [1, 2, 1, 1, 9, 9, 8, 1, 2, 4, 4, 2, 3, 1, 6, 2, 5]
+current best fitness(1 - loss): 0.7527472527472527
+training set:  725
+validation set:  182
+current generation: 44
+current best individual: [1, 2, 1, 1, 9, 9, 8, 1, 2, 4, 4, 2, 2, 1, 6, 2, 7]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 45
+current best individual: [1, 2, 1, 1, 9, 9, 8, 1, 2, 6, 4, 2, 2, 1, 6, 2, 7]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 46
+current best individual: [1, 2, 1, 9, 9, 9, 8, 1, 2, 4, 4, 2, 2, 1, 6, 2, 7]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 47
+current best individual: [1, 2, 1, 1, 9, 9, 2, 1, 2, 6, 4, 2, 2, 1, 6, 2, 7]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 48
+current best individual: [1, 2, 1, 1, 9, 9, 2, 1, 2, 6, 4, 2, 2, 1, 6, 2, 7]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 49
+current best individual: [1, 2, 1, 1, 9, 9, 8, 1, 2, 4, 4, 2, 2, 1, 6, 2, 3]
+current best fitness(1 - loss): 0.7527472527472527
+training set:  725
+validation set:  182
+current generation: 50
+current best individual: [1, 2, 1, 1, 9, 9, 8, 1, 2, 4, 4, 2, 2, 1, 6, 2, 3]
+current best fitness(1 - loss): 0.8076923076923077
+training set:  725
+validation set:  182
+current generation: 51
+current best individual: [2, 2, 1, 1, 9, 9, 8, 1, 2, 4, 4, 2, 2, 1, 6, 2, 3]
+current best fitness(1 - loss): 0.7417582417582418
+training set:  725
+validation set:  182
+current generation: 52
+current best individual: [1, 2, 1, 1, 9, 9, 8, 1, 2, 4, 4, 2, 2, 1, 6, 2, 3]
+current best fitness(1 - loss): 0.7747252747252747
+training set:  725
+validation set:  182
+current generation: 53
+current best individual: [1, 2, 1, 1, 9, 9, 8, 1, 9, 4, 4, 2, 2, 1, 6, 2, 3]
+current best fitness(1 - loss): 0.7472527472527473
+training set:  725
+validation set:  182
+current generation: 54
+current best individual: [1, 2, 1, 1, 9, 9, 8, 1, 2, 4, 5, 2, 2, 1, 6, 2, 3]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 55
+current best individual: [1, 2, 1, 1, 9, 9, 8, 1, 2, 4, 4, 2, 2, 1, 6, 2, 3]
+current best fitness(1 - loss): 0.8516483516483516
+training set:  725
+validation set:  182
+current generation: 56
+current best individual: [1, 2, 1, 1, 9, 9, 8, 1, 2, 4, 4, 2, 2, 1, 1, 2, 3]
+current best fitness(1 - loss): 0.8461538461538461
+training set:  725
+validation set:  182
+current generation: 57
+current best individual: [1, 2, 1, 1, 9, 7, 8, 1, 2, 4, 4, 2, 2, 1, 6, 2, 3]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 58
+current best individual: [1, 2, 1, 1, 9, 9, 8, 1, 2, 4, 4, 2, 2, 1, 1, 2, 3]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 59
+current best individual: [1, 2, 1, 1, 9, 9, 8, 1, 2, 4, 4, 2, 2, 1, 1, 2, 3]
+current best fitness(1 - loss): 0.8021978021978022
+training set:  725
+validation set:  182
+current generation: 60
+current best individual: [1, 2, 1, 1, 9, 9, 8, 1, 8, 4, 5, 2, 2, 1, 9, 2, 3]
+current best fitness(1 - loss): 0.7747252747252747
+training set:  725
+validation set:  182
+current generation: 61
+current best individual: [1, 2, 1, 1, 9, 9, 3, 1, 2, 4, 4, 2, 2, 1, 1, 2, 3]
+current best fitness(1 - loss): 0.8131868131868132
+training set:  725
+validation set:  182
+current generation: 62
+current best individual: [1, 2, 5, 1, 9, 9, 3, 1, 2, 4, 4, 2, 2, 1, 1, 2, 3]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 63
+current best individual: [1, 2, 1, 1, 9, 9, 3, 1, 2, 4, 4, 2, 2, 1, 1, 2, 3]
+current best fitness(1 - loss): 0.8021978021978022
+training set:  725
+validation set:  182
+current generation: 64
+current best individual: [1, 2, 1, 1, 9, 9, 3, 1, 4, 4, 4, 2, 2, 1, 1, 2, 3]
+current best fitness(1 - loss): 0.8461538461538461
+training set:  725
+validation set:  182
+current generation: 65
+current best individual: [1, 2, 1, 1, 9, 9, 3, 1, 2, 4, 4, 2, 2, 1, 1, 2, 3]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 66
+current best individual: [1, 2, 1, 1, 9, 9, 3, 1, 2, 4, 4, 2, 8, 1, 1, 2, 3]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 67
+current best individual: [1, 2, 1, 1, 2, 9, 3, 1, 4, 4, 4, 2, 2, 1, 1, 2, 3]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 68
+current best individual: [1, 2, 1, 1, 9, 9, 3, 1, 2, 4, 4, 2, 2, 1, 1, 2, 3]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 69
+current best individual: [8, 2, 1, 1, 9, 9, 3, 1, 2, 4, 7, 2, 8, 1, 1, 2, 3]
+current best fitness(1 - loss): 0.8241758241758241
+training set:  725
+validation set:  182
+current generation: 70
+current best individual: [1, 2, 1, 1, 2, 9, 3, 1, 4, 4, 4, 2, 2, 1, 1, 2, 3]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 71
+current best individual: [1, 2, 1, 1, 2, 9, 3, 1, 4, 4, 4, 2, 2, 1, 1, 2, 3]
+current best fitness(1 - loss): 0.8241758241758241
+training set:  725
+validation set:  182
+current generation: 72
+current best individual: [1, 2, 1, 1, 9, 9, 3, 1, 2, 4, 4, 2, 2, 1, 1, 2, 3]
+current best fitness(1 - loss): 0.7252747252747253
+training set:  725
+validation set:  182
+current generation: 73
+current best individual: [1, 2, 1, 1, 9, 9, 3, 1, 4, 4, 4, 2, 2, 1, 1, 2, 3]
+current best fitness(1 - loss): 0.8186813186813187
+training set:  725
+validation set:  182
+current generation: 74
+current best individual: [1, 2, 1, 1, 9, 9, 3, 1, 4, 4, 4, 2, 2, 1, 1, 2, 3]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 75
+current best individual: [1, 2, 1, 1, 9, 9, 3, 1, 2, 4, 4, 2, 2, 1, 1, 6, 3]
+current best fitness(1 - loss): 0.8351648351648352
+training set:  725
+validation set:  182
+current generation: 76
+current best individual: [1, 2, 1, 1, 9, 9, 3, 1, 2, 4, 4, 2, 2, 1, 1, 2, 3]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 77
+current best individual: [1, 2, 1, 1, 9, 9, 3, 1, 2, 4, 4, 2, 2, 1, 1, 2, 3]
+current best fitness(1 - loss): 0.8186813186813187
+training set:  725
+validation set:  182
+current generation: 78
+current best individual: [1, 2, 1, 1, 9, 4, 3, 1, 2, 4, 4, 2, 2, 1, 1, 2, 3]
+current best fitness(1 - loss): 0.8076923076923077
+training set:  725
+validation set:  182
+current generation: 79
+current best individual: [1, 2, 1, 1, 9, 9, 3, 1, 2, 4, 4, 2, 2, 1, 0, 2, 3]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 80
+current best individual: [1, 2, 1, 1, 9, 9, 3, 1, 6, 4, 4, 2, 2, 1, 0, 2, 3]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 81
+current best individual: [1, 2, 1, 1, 9, 9, 3, 1, 2, 4, 2, 2, 2, 1, 4, 2, 3]
+current best fitness(1 - loss): 0.7362637362637363
+training set:  725
+validation set:  182
+current generation: 82
+current best individual: [1, 2, 1, 1, 9, 9, 3, 1, 2, 4, 4, 2, 2, 1, 0, 2, 3]
+current best fitness(1 - loss): 0.8296703296703296
+training set:  725
+validation set:  182
+current generation: 83
+current best individual: [1, 2, 1, 1, 9, 9, 3, 1, 2, 4, 4, 2, 2, 1, 0, 2, 3]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 84
+current best individual: [1, 2, 1, 1, 9, 9, 3, 1, 2, 4, 2, 2, 2, 1, 4, 2, 3]
+current best fitness(1 - loss): 0.7472527472527473
+training set:  725
+validation set:  182
+current generation: 85
+current best individual: [1, 2, 1, 1, 9, 9, 3, 1, 2, 4, 2, 2, 2, 1, 4, 2, 3]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 86
+current best individual: [1, 2, 1, 1, 9, 9, 3, 1, 2, 4, 2, 2, 2, 1, 4, 2, 3]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 87
+current best individual: [1, 2, 1, 1, 9, 9, 3, 1, 2, 4, 4, 2, 2, 1, 3, 2, 3]
+current best fitness(1 - loss): 0.7417582417582418
+training set:  725
+validation set:  182
+current generation: 88
+current best individual: [1, 2, 1, 1, 9, 9, 3, 1, 2, 4, 4, 2, 2, 1, 3, 2, 3]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 89
+current best individual: [1, 2, 1, 1, 9, 9, 3, 1, 2, 4, 4, 2, 2, 1, 3, 2, 3]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 90
+current best individual: [1, 2, 1, 1, 9, 9, 3, 1, 2, 4, 2, 2, 2, 1, 4, 2, 3]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 91
+current best individual: [1, 9, 1, 1, 9, 9, 3, 1, 2, 2, 4, 2, 2, 1, 3, 2, 3]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 92
+current best individual: [1, 9, 1, 1, 9, 9, 3, 1, 2, 2, 4, 2, 2, 1, 3, 2, 3]
+current best fitness(1 - loss): 0.7417582417582418
+training set:  725
+validation set:  182
+current generation: 93
+current best individual: [1, 9, 1, 1, 9, 9, 3, 1, 2, 2, 4, 2, 2, 1, 3, 2, 3]
+current best fitness(1 - loss): 0.8186813186813187
+training set:  725
+validation set:  182
+current generation: 94
+current best individual: [1, 9, 1, 1, 9, 9, 3, 1, 2, 6, 4, 2, 2, 1, 3, 2, 3]
+current best fitness(1 - loss): 0.7197802197802198
+training set:  725
+validation set:  182
+current generation: 95
+current best individual: [1, 9, 1, 1, 9, 9, 3, 1, 2, 6, 4, 2, 2, 1, 3, 2, 3]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 96
+current best individual: [1, 9, 1, 1, 9, 9, 3, 1, 2, 2, 4, 6, 2, 1, 3, 2, 3]
+current best fitness(1 - loss): 0.8351648351648352
+training set:  725
+validation set:  182
+current generation: 97
+current best individual: [1, 9, 1, 1, 9, 9, 3, 1, 2, 2, 4, 2, 4, 1, 3, 2, 3]
+current best fitness(1 - loss): 0.8076923076923077
+training set:  725
+validation set:  182
+current generation: 98
+current best individual: [1, 9, 1, 1, 9, 9, 3, 1, 2, 2, 4, 2, 4, 1, 3, 2, 3]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 99
+current best individual: [1, 9, 1, 1, 9, 9, 1, 1, 2, 2, 4, 2, 4, 1, 3, 3, 3]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 100
+current best individual: [1, 9, 1, 1, 9, 9, 3, 6, 2, 2, 4, 2, 2, 1, 3, 2, 3]
+current best fitness(1 - loss): 0.8351648351648352
+training set:  725
+validation set:  182
+current generation: 101
+current best individual: [1, 9, 1, 1, 9, 9, 1, 1, 2, 2, 4, 2, 2, 1, 3, 2, 3]
+current best fitness(1 - loss): 0.8131868131868132
+training set:  725
+validation set:  182
+current generation: 102
+current best individual: [1, 9, 1, 1, 9, 9, 3, 6, 0, 2, 4, 2, 2, 1, 3, 2, 3]
+current best fitness(1 - loss): 0.8021978021978022
+training set:  725
+validation set:  182
+current generation: 103
+current best individual: [1, 9, 1, 1, 9, 9, 3, 6, 2, 2, 4, 2, 4, 1, 3, 2, 3]
+current best fitness(1 - loss): 0.8076923076923077
+training set:  725
+validation set:  182
+current generation: 104
+current best individual: [1, 9, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 4, 1, 3, 2, 3]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 105
+current best individual: [1, 9, 1, 1, 9, 9, 3, 6, 2, 2, 4, 2, 2, 1, 1, 2, 3]
+current best fitness(1 - loss): 0.8186813186813187
+training set:  725
+validation set:  182
+current generation: 106
+current best individual: [1, 9, 1, 1, 9, 9, 1, 7, 8, 2, 4, 2, 2, 1, 3, 2, 3]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 107
+current best individual: [1, 9, 1, 1, 9, 9, 1, 6, 2, 2, 4, 2, 4, 1, 3, 2, 3]
+current best fitness(1 - loss): 0.8186813186813187
+training set:  725
+validation set:  182
+current generation: 108
+current best individual: [1, 9, 1, 1, 9, 9, 3, 6, 8, 2, 4, 2, 2, 1, 3, 2, 3]
+current best fitness(1 - loss): 0.8021978021978022
+training set:  725
+validation set:  182
+current generation: 109
+current best individual: [1, 9, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 4, 1, 3, 2, 3]
+current best fitness(1 - loss): 0.7472527472527473
+training set:  725
+validation set:  182
+current generation: 110
+current best individual: [1, 9, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 4, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 111
+current best individual: [1, 9, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 4, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.8186813186813187
+training set:  725
+validation set:  182
+current generation: 112
+current best individual: [1, 9, 1, 1, 9, 9, 1, 6, 2, 2, 4, 2, 4, 1, 3, 2, 3]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 113
+current best individual: [1, 9, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 4, 1, 3, 2, 3]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 114
+current best individual: [1, 9, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 4, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 115
+current best individual: [5, 9, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 4, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 116
+current best individual: [5, 9, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 4, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.8131868131868132
+training set:  725
+validation set:  182
+current generation: 117
+current best individual: [1, 9, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7527472527472527
+training set:  725
+validation set:  182
+current generation: 118
+current best individual: [5, 9, 1, 1, 9, 9, 9, 6, 2, 2, 4, 3, 4, 1, 8, 7, 3]
+current best fitness(1 - loss): 0.8296703296703296
+training set:  725
+validation set:  182
+current generation: 119
+current best individual: [1, 9, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 4, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 120
+current best individual: [5, 9, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 4, 1, 8, 7, 3]
+current best fitness(1 - loss): 0.8076923076923077
+training set:  725
+validation set:  182
+current generation: 121
+current best individual: [1, 9, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 122
+current best individual: [1, 9, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 2, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 123
+current best individual: [2, 6, 1, 1, 9, 9, 1, 7, 2, 2, 4, 3, 4, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 124
+current best individual: [1, 9, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 3, 1, 8, 3, 9]
+current best fitness(1 - loss): 0.7747252747252747
+training set:  725
+validation set:  182
+current generation: 125
+current best individual: [2, 6, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 3, 1, 8, 3, 9]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 126
+current best individual: [1, 9, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 2, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.8241758241758241
+training set:  725
+validation set:  182
+current generation: 127
+current best individual: [1, 9, 1, 1, 9, 9, 1, 7, 2, 2, 7, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.8076923076923077
+training set:  725
+validation set:  182
+current generation: 128
+current best individual: [3, 9, 1, 1, 9, 9, 1, 7, 2, 2, 7, 2, 3, 1, 1, 2, 3]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 129
+current best individual: [1, 9, 1, 1, 9, 9, 1, 7, 2, 2, 7, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 130
+current best individual: [1, 9, 1, 1, 9, 9, 1, 7, 8, 2, 4, 2, 3, 1, 8, 2, 6]
+current best fitness(1 - loss): 0.8351648351648352
+training set:  725
+validation set:  182
+current generation: 131
+current best individual: [1, 9, 1, 1, 9, 9, 1, 7, 8, 2, 7, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 132
+current best individual: [1, 9, 1, 1, 9, 9, 1, 7, 8, 2, 7, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.8351648351648352
+training set:  725
+validation set:  182
+current generation: 133
+current best individual: [1, 4, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7747252747252747
+training set:  725
+validation set:  182
+current generation: 134
+current best individual: [1, 9, 1, 1, 9, 9, 1, 7, 8, 2, 7, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.8186813186813187
+training set:  725
+validation set:  182
+current generation: 135
+current best individual: [1, 9, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7417582417582418
+training set:  725
+validation set:  182
+current generation: 136
+current best individual: [1, 9, 1, 1, 9, 9, 1, 7, 8, 2, 7, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.8351648351648352
+training set:  725
+validation set:  182
+current generation: 137
+current best individual: [1, 9, 1, 1, 9, 9, 1, 7, 8, 2, 7, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 138
+current best individual: [1, 4, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 139
+current best individual: [1, 9, 1, 1, 4, 9, 1, 7, 2, 2, 7, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7527472527472527
+training set:  725
+validation set:  182
+current generation: 140
+current best individual: [1, 9, 1, 1, 4, 9, 1, 7, 2, 2, 7, 6, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.8131868131868132
+training set:  725
+validation set:  182
+current generation: 141
+current best individual: [1, 9, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.8186813186813187
+training set:  725
+validation set:  182
+current generation: 142
+current best individual: [1, 4, 1, 1, 9, 9, 1, 7, 8, 2, 7, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 143
+current best individual: [1, 4, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 144
+current best individual: [1, 4, 1, 1, 9, 9, 1, 7, 8, 2, 7, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 145
+current best individual: [1, 4, 1, 1, 4, 9, 1, 7, 2, 2, 4, 2, 3, 1, 8, 2, 1]
+current best fitness(1 - loss): 0.8021978021978022
+training set:  725
+validation set:  182
+current generation: 146
+current best individual: [1, 9, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.8186813186813187
+training set:  725
+validation set:  182
+current generation: 147
+current best individual: [1, 4, 1, 1, 9, 9, 1, 7, 8, 2, 7, 2, 3, 1, 2, 2, 1]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 148
+current best individual: [1, 9, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 149
+current best individual: [1, 9, 0, 1, 9, 9, 1, 7, 2, 2, 7, 6, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7747252747252747
+training set:  725
+validation set:  182
+current generation: 150
+current best individual: [1, 9, 1, 1, 0, 9, 1, 7, 2, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 151
+current best individual: [1, 9, 1, 1, 0, 9, 1, 7, 2, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7747252747252747
+training set:  725
+validation set:  182
+current generation: 152
+current best individual: [1, 9, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.8021978021978022
+training set:  725
+validation set:  182
+current generation: 153
+current best individual: [1, 9, 1, 1, 0, 9, 1, 7, 2, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 154
+current best individual: [1, 3, 1, 1, 0, 9, 1, 7, 2, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.8186813186813187
+training set:  725
+validation set:  182
+current generation: 155
+current best individual: [1, 1, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 3, 1, 8, 7, 3]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 156
+current best individual: [1, 1, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7527472527472527
+training set:  725
+validation set:  182
+current generation: 157
+current best individual: [1, 1, 1, 1, 9, 9, 1, 7, 2, 2, 7, 9, 3, 1, 8, 7, 3]
+current best fitness(1 - loss): 0.8296703296703296
+training set:  725
+validation set:  182
+current generation: 158
+current best individual: [1, 1, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 159
+current best individual: [1, 1, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7747252747252747
+training set:  725
+validation set:  182
+current generation: 160
+current best individual: [1, 1, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7417582417582418
+training set:  725
+validation set:  182
+current generation: 161
+current best individual: [1, 1, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7252747252747253
+training set:  725
+validation set:  182
+current generation: 162
+current best individual: [1, 1, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 163
+current best individual: [1, 1, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 164
+current best individual: [1, 1, 1, 1, 9, 9, 1, 7, 2, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 165
+current best individual: [1, 1, 1, 1, 9, 5, 1, 7, 2, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 166
+current best individual: [1, 1, 1, 1, 9, 5, 1, 4, 2, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 167
+current best individual: [1, 1, 1, 1, 9, 5, 1, 7, 2, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 168
+current best individual: [1, 1, 1, 1, 9, 5, 1, 4, 2, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 169
+current best individual: [1, 1, 1, 1, 9, 5, 1, 4, 2, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7747252747252747
+training set:  725
+validation set:  182
+current generation: 170
+current best individual: [1, 1, 1, 1, 9, 5, 1, 4, 2, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.8021978021978022
+training set:  725
+validation set:  182
+current generation: 171
+current best individual: [1, 1, 1, 1, 9, 5, 1, 4, 6, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.8131868131868132
+training set:  725
+validation set:  182
+current generation: 172
+current best individual: [1, 1, 1, 1, 9, 5, 1, 4, 6, 2, 4, 2, 3, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 173
+current best individual: [1, 1, 1, 1, 9, 5, 1, 4, 6, 2, 4, 2, 3, 1, 8, 5, 3]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 174
+current best individual: [1, 1, 0, 1, 9, 5, 1, 4, 6, 2, 4, 2, 3, 1, 8, 5, 3]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 175
+current best individual: [1, 1, 0, 1, 9, 5, 1, 4, 6, 2, 4, 2, 3, 1, 8, 5, 3]
+current best fitness(1 - loss): 0.8021978021978022
+training set:  725
+validation set:  182
+current generation: 176
+current best individual: [1, 1, 0, 1, 9, 5, 1, 4, 6, 2, 4, 2, 3, 1, 8, 5, 3]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 177
+current best individual: [1, 1, 0, 1, 9, 5, 1, 4, 6, 2, 4, 2, 3, 1, 8, 5, 3]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 178
+current best individual: [1, 1, 0, 1, 9, 5, 1, 4, 6, 2, 7, 2, 3, 1, 8, 5, 3]
+current best fitness(1 - loss): 0.7252747252747253
+training set:  725
+validation set:  182
+current generation: 179
+current best individual: [1, 1, 0, 1, 9, 5, 1, 4, 6, 2, 7, 2, 3, 1, 8, 5, 3]
+current best fitness(1 - loss): 0.8021978021978022
+training set:  725
+validation set:  182
+current generation: 180
+current best individual: [1, 1, 0, 1, 9, 5, 1, 4, 6, 2, 7, 2, 3, 1, 8, 5, 3]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 181
+current best individual: [1, 1, 0, 1, 9, 5, 1, 4, 6, 4, 7, 2, 3, 1, 8, 5, 3]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 182
+current best individual: [1, 1, 0, 1, 9, 5, 1, 4, 6, 4, 7, 2, 3, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.8186813186813187
+training set:  725
+validation set:  182
+current generation: 183
+current best individual: [1, 1, 0, 1, 9, 5, 1, 4, 6, 4, 7, 2, 3, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 184
+current best individual: [1, 1, 0, 1, 9, 6, 1, 4, 6, 4, 7, 2, 3, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.8296703296703296
+training set:  725
+validation set:  182
+current generation: 185
+current best individual: [1, 1, 0, 1, 9, 6, 1, 4, 6, 4, 7, 2, 3, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.8186813186813187
+training set:  725
+validation set:  182
+current generation: 186
+current best individual: [1, 1, 0, 1, 9, 6, 4, 4, 6, 4, 7, 2, 3, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 187
+current best individual: [1, 1, 0, 1, 9, 6, 4, 4, 6, 4, 7, 2, 2, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.7747252747252747
+training set:  725
+validation set:  182
+current generation: 188
+current best individual: [1, 1, 0, 1, 8, 3, 4, 4, 6, 4, 7, 2, 2, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 189
+current best individual: [1, 1, 0, 1, 9, 6, 4, 4, 6, 4, 7, 2, 2, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.7472527472527473
+training set:  725
+validation set:  182
+current generation: 190
+current best individual: [1, 1, 0, 1, 9, 6, 4, 4, 6, 4, 7, 2, 2, 1, 8, 0, 7]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 191
+current best individual: [1, 1, 0, 1, 9, 6, 4, 4, 6, 4, 7, 2, 3, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.7307692307692308
+training set:  725
+validation set:  182
+current generation: 192
+current best individual: [1, 1, 0, 1, 9, 6, 4, 4, 6, 4, 7, 2, 0, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 193
+current best individual: [1, 1, 0, 4, 9, 6, 4, 4, 6, 4, 7, 2, 3, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.8076923076923077
+training set:  725
+validation set:  182
+current generation: 194
+current best individual: [1, 1, 0, 1, 9, 6, 4, 4, 6, 4, 7, 2, 0, 1, 8, 0, 7]
+current best fitness(1 - loss): 0.7362637362637363
+training set:  725
+validation set:  182
+current generation: 195
+current best individual: [1, 1, 0, 1, 9, 6, 4, 4, 6, 4, 7, 2, 0, 1, 8, 0, 7]
+current best fitness(1 - loss): 0.7307692307692308
+training set:  725
+validation set:  182
+current generation: 196
+current best individual: [1, 1, 0, 4, 9, 6, 4, 4, 6, 4, 7, 2, 3, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 197
+current best individual: [1, 1, 0, 1, 9, 6, 4, 4, 6, 4, 7, 0, 0, 1, 8, 0, 7]
+current best fitness(1 - loss): 0.8406593406593407
+training set:  725
+validation set:  182
+current generation: 198
+current best individual: [1, 1, 0, 1, 9, 4, 4, 4, 6, 4, 7, 2, 3, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.7747252747252747
+training set:  725
+validation set:  182
+current generation: 199
+current best individual: [1, 1, 0, 1, 9, 6, 4, 4, 6, 4, 7, 2, 3, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.8131868131868132
+training set:  725
+validation set:  182
+current generation: 200
+current best individual: [1, 1, 0, 1, 9, 6, 4, 4, 6, 4, 7, 1, 3, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 201
+current best individual: [1, 1, 0, 1, 9, 9, 4, 4, 6, 4, 7, 2, 3, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.8571428571428572
+training set:  725
+validation set:  182
+current generation: 202
+current best individual: [1, 1, 0, 1, 9, 6, 4, 4, 6, 4, 7, 1, 3, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.8131868131868132
+training set:  725
+validation set:  182
+current generation: 203
+current best individual: [1, 1, 0, 1, 9, 6, 4, 4, 6, 4, 7, 2, 0, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.8241758241758241
+training set:  725
+validation set:  182
+current generation: 204
+current best individual: [1, 1, 0, 1, 9, 9, 4, 4, 6, 4, 7, 2, 0, 1, 8, 0, 8]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 205
+current best individual: [1, 1, 0, 1, 9, 6, 4, 4, 6, 4, 7, 7, 0, 1, 8, 0, 8]
+current best fitness(1 - loss): 0.8296703296703296
+training set:  725
+validation set:  182
+current generation: 206
+current best individual: [1, 1, 0, 1, 9, 6, 4, 4, 6, 4, 7, 2, 0, 1, 8, 0, 1]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 207
+current best individual: [1, 1, 0, 1, 9, 9, 4, 4, 6, 4, 7, 2, 0, 1, 8, 0, 8]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 208
+current best individual: [1, 1, 0, 1, 9, 9, 4, 4, 6, 4, 7, 7, 0, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.8516483516483516
+training set:  725
+validation set:  182
+current generation: 209
+current best individual: [1, 1, 0, 1, 9, 9, 4, 4, 6, 4, 7, 2, 0, 1, 8, 0, 8]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 210
+current best individual: [1, 1, 0, 1, 9, 9, 4, 4, 6, 4, 7, 7, 0, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 211
+current best individual: [1, 1, 0, 1, 9, 9, 4, 4, 6, 4, 7, 7, 8, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.8021978021978022
+training set:  725
+validation set:  182
+current generation: 212
+current best individual: [1, 1, 0, 1, 9, 9, 4, 4, 6, 4, 7, 7, 0, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 213
+current best individual: [1, 1, 0, 6, 9, 9, 4, 4, 6, 4, 7, 7, 0, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.8076923076923077
+training set:  725
+validation set:  182
+current generation: 214
+current best individual: [1, 1, 0, 1, 9, 9, 4, 4, 6, 5, 7, 7, 3, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.8076923076923077
+training set:  725
+validation set:  182
+current generation: 215
+current best individual: [1, 1, 0, 1, 9, 9, 4, 4, 6, 4, 7, 7, 5, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 216
+current best individual: [1, 1, 0, 1, 6, 9, 4, 4, 6, 4, 7, 7, 0, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 217
+current best individual: [1, 1, 0, 1, 6, 9, 4, 4, 6, 4, 7, 7, 0, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.8186813186813187
+training set:  725
+validation set:  182
+current generation: 218
+current best individual: [1, 1, 0, 1, 9, 9, 4, 4, 6, 5, 7, 7, 0, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 219
+current best individual: [1, 1, 0, 1, 5, 9, 1, 4, 6, 4, 7, 7, 5, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 220
+current best individual: [1, 1, 0, 1, 5, 9, 1, 4, 6, 4, 7, 7, 5, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 221
+current best individual: [1, 1, 0, 1, 6, 9, 4, 4, 6, 4, 7, 7, 0, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 222
+current best individual: [1, 1, 0, 1, 3, 9, 1, 5, 6, 4, 7, 7, 5, 1, 8, 8, 3]
+current best fitness(1 - loss): 0.8186813186813187
+training set:  725
+validation set:  182
+current generation: 223
+current best individual: [1, 1, 0, 1, 6, 9, 4, 4, 6, 4, 7, 7, 5, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.8076923076923077
+training set:  725
+validation set:  182
+current generation: 224
+current best individual: [1, 1, 0, 1, 5, 9, 1, 4, 6, 4, 7, 7, 5, 1, 8, 8, 3]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 225
+current best individual: [1, 1, 0, 1, 6, 9, 4, 4, 6, 4, 7, 7, 0, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.8516483516483516
+training set:  725
+validation set:  182
+current generation: 226
+current best individual: [1, 1, 0, 1, 6, 9, 4, 4, 6, 4, 7, 7, 0, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 227
+current best individual: [1, 1, 0, 1, 6, 9, 4, 4, 6, 4, 7, 7, 0, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 228
+current best individual: [1, 1, 0, 1, 5, 9, 1, 4, 6, 4, 7, 7, 3, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 229
+current best individual: [1, 1, 0, 1, 5, 9, 1, 4, 6, 4, 7, 7, 3, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.8021978021978022
+training set:  725
+validation set:  182
+current generation: 230
+current best individual: [1, 1, 0, 1, 6, 9, 4, 4, 6, 4, 6, 7, 0, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.8186813186813187
+training set:  725
+validation set:  182
+current generation: 231
+current best individual: [1, 1, 0, 1, 6, 9, 4, 4, 1, 4, 7, 7, 3, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 232
+current best individual: [1, 1, 0, 1, 5, 9, 1, 4, 1, 4, 7, 7, 0, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.8461538461538461
+training set:  725
+validation set:  182
+current generation: 233
+current best individual: [1, 1, 0, 1, 5, 9, 1, 4, 1, 4, 7, 7, 3, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.8186813186813187
+training set:  725
+validation set:  182
+current generation: 234
+current best individual: [1, 1, 0, 1, 5, 9, 1, 4, 1, 4, 7, 7, 0, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.8131868131868132
+training set:  725
+validation set:  182
+current generation: 235
+current best individual: [1, 1, 0, 1, 5, 9, 1, 4, 1, 4, 7, 7, 3, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.7747252747252747
+training set:  725
+validation set:  182
+current generation: 236
+current best individual: [1, 1, 0, 1, 5, 9, 1, 4, 1, 4, 7, 7, 0, 1, 8, 2, 3]
+current best fitness(1 - loss): 0.7747252747252747
+training set:  725
+validation set:  182
+current generation: 237
+current best individual: [1, 1, 0, 1, 5, 9, 1, 4, 6, 4, 7, 7, 3, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 238
+current best individual: [1, 1, 0, 1, 5, 9, 1, 4, 6, 4, 4, 7, 0, 1, 8, 0, 3]
+current best fitness(1 - loss): 0.8296703296703296
+training set:  725
+validation set:  182
+current generation: 239
+current best individual: [1, 1, 0, 1, 5, 9, 1, 4, 6, 4, 4, 7, 3, 1, 8, 3, 3]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 240
+current best individual: [1, 1, 0, 1, 5, 9, 1, 4, 6, 4, 7, 7, 3, 1, 4, 0, 3]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 241
+current best individual: [1, 1, 0, 1, 5, 9, 1, 4, 6, 4, 7, 7, 3, 1, 9, 0, 3]
+current best fitness(1 - loss): 0.7417582417582418
+training set:  725
+validation set:  182
+current generation: 242
+current best individual: [1, 1, 0, 1, 5, 9, 1, 4, 4, 4, 7, 7, 3, 1, 8, 3, 3]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 243
+current best individual: [1, 1, 0, 1, 5, 9, 1, 4, 6, 4, 7, 7, 3, 1, 9, 0, 3]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 244
+current best individual: [1, 1, 0, 1, 5, 9, 1, 4, 4, 4, 7, 7, 3, 1, 8, 3, 3]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 245
+current best individual: [1, 1, 0, 1, 5, 9, 1, 4, 6, 4, 4, 7, 3, 7, 9, 3, 3]
+current best fitness(1 - loss): 0.8296703296703296
+training set:  725
+validation set:  182
+current generation: 246
+current best individual: [1, 1, 0, 1, 5, 9, 1, 1, 6, 4, 8, 7, 3, 1, 9, 0, 3]
+current best fitness(1 - loss): 0.8021978021978022
+training set:  725
+validation set:  182
+current generation: 247
+current best individual: [1, 1, 0, 1, 5, 9, 1, 1, 3, 4, 8, 7, 3, 1, 9, 0, 3]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 248
+current best individual: [1, 1, 0, 1, 5, 9, 1, 1, 3, 4, 8, 7, 3, 1, 9, 0, 3]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 249
+current best individual: [1, 1, 0, 1, 5, 9, 1, 1, 6, 4, 8, 7, 3, 1, 9, 0, 3]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 250
+current best individual: [1, 1, 0, 1, 5, 9, 1, 1, 6, 4, 8, 7, 3, 1, 9, 0, 3]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 251
+current best individual: [1, 1, 0, 1, 5, 9, 1, 1, 6, 4, 8, 7, 3, 1, 9, 0, 3]
+current best fitness(1 - loss): 0.7527472527472527
+training set:  725
+validation set:  182
+current generation: 252
+current best individual: [1, 1, 0, 1, 5, 9, 1, 1, 6, 4, 8, 7, 2, 1, 9, 0, 3]
+current best fitness(1 - loss): 0.7747252747252747
+training set:  725
+validation set:  182
+current generation: 253
+current best individual: [1, 1, 0, 1, 5, 9, 1, 1, 6, 4, 8, 7, 2, 1, 9, 0, 3]
+current best fitness(1 - loss): 0.8076923076923077
+training set:  725
+validation set:  182
+current generation: 254
+current best individual: [1, 1, 0, 1, 5, 9, 1, 1, 6, 4, 8, 7, 2, 1, 9, 0, 2]
+current best fitness(1 - loss): 0.8186813186813187
+training set:  725
+validation set:  182
+current generation: 255
+current best individual: [1, 1, 0, 1, 5, 9, 1, 1, 6, 7, 8, 7, 2, 1, 9, 0, 2]
+current best fitness(1 - loss): 0.8076923076923077
+training set:  725
+validation set:  182
+current generation: 256
+current best individual: [1, 1, 0, 1, 5, 9, 1, 1, 6, 4, 8, 4, 5, 1, 9, 0, 2]
+current best fitness(1 - loss): 0.8021978021978022
+training set:  725
+validation set:  182
+current generation: 257
+current best individual: [1, 1, 0, 1, 5, 9, 1, 1, 5, 4, 8, 4, 2, 1, 9, 0, 2]
+current best fitness(1 - loss): 0.8681318681318682
+training set:  725
+validation set:  182
+current generation: 258
+current best individual: [1, 1, 0, 1, 5, 9, 1, 1, 5, 4, 8, 4, 2, 1, 9, 0, 2]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 259
+current best individual: [1, 1, 0, 1, 5, 9, 1, 1, 6, 7, 8, 7, 2, 1, 9, 0, 2]
+current best fitness(1 - loss): 0.8351648351648352
+training set:  725
+validation set:  182
+current generation: 260
+current best individual: [1, 1, 0, 1, 5, 9, 1, 1, 6, 7, 8, 7, 2, 1, 9, 0, 2]
+current best fitness(1 - loss): 0.8351648351648352
+training set:  725
+validation set:  182
+current generation: 261
+current best individual: [1, 1, 0, 1, 5, 9, 1, 1, 5, 4, 8, 4, 2, 1, 9, 0, 2]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 262
+current best individual: [1, 1, 0, 1, 5, 9, 1, 1, 5, 4, 8, 4, 2, 1, 9, 0, 2]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 263
+current best individual: [1, 1, 0, 1, 5, 9, 1, 1, 5, 4, 8, 4, 2, 1, 9, 0, 2]
+current best fitness(1 - loss): 0.8736263736263736
+training set:  725
+validation set:  182
+current generation: 264
+current best individual: [1, 1, 0, 1, 5, 9, 1, 1, 5, 4, 8, 4, 2, 1, 9, 0, 2]
+current best fitness(1 - loss): 0.8131868131868132
+training set:  725
+validation set:  182
+current generation: 265
+current best individual: [1, 1, 0, 1, 5, 9, 1, 1, 5, 4, 8, 4, 2, 4, 9, 0, 2]
+current best fitness(1 - loss): 0.8241758241758241
+training set:  725
+validation set:  182
+current generation: 266
+current best individual: [1, 1, 0, 1, 5, 9, 1, 1, 5, 4, 8, 4, 2, 4, 9, 0, 2]
+current best fitness(1 - loss): 0.8406593406593407
+training set:  725
+validation set:  182
+current generation: 267
+current best individual: [1, 1, 0, 1, 5, 9, 1, 1, 5, 4, 8, 4, 2, 4, 0, 0, 2]
+current best fitness(1 - loss): 0.7307692307692308
+training set:  725
+validation set:  182
+current generation: 268
+current best individual: [1, 1, 0, 1, 5, 9, 1, 1, 5, 4, 8, 4, 2, 4, 6, 0, 2]
+current best fitness(1 - loss): 0.8021978021978022
+training set:  725
+validation set:  182
+current generation: 269
+current best individual: [1, 1, 0, 1, 5, 9, 1, 1, 5, 4, 8, 4, 2, 4, 6, 0, 2]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 270
+current best individual: [1, 1, 0, 1, 5, 9, 1, 1, 5, 4, 8, 4, 2, 4, 9, 0, 2]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 271
+current best individual: [2, 1, 0, 1, 5, 9, 1, 1, 5, 4, 8, 4, 2, 4, 9, 0, 2]
+current best fitness(1 - loss): 0.7747252747252747
+training set:  725
+validation set:  182
+current generation: 272
+current best individual: [2, 1, 0, 1, 5, 9, 1, 1, 5, 4, 8, 4, 2, 4, 9, 0, 2]
+current best fitness(1 - loss): 0.7197802197802198
+training set:  725
+validation set:  182
+current generation: 273
+current best individual: [2, 6, 0, 1, 5, 9, 1, 1, 5, 4, 8, 4, 2, 4, 8, 0, 2]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 274
+current best individual: [2, 5, 0, 1, 5, 9, 8, 1, 5, 4, 8, 4, 2, 4, 8, 0, 2]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 275
+current best individual: [2, 5, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 2, 4, 8, 0, 2]
+current best fitness(1 - loss): 0.7527472527472527
+training set:  725
+validation set:  182
+current generation: 276
+current best individual: [2, 5, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 2, 4, 8, 0, 2]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 277
+current best individual: [2, 5, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 2, 4, 8, 0, 2]
+current best fitness(1 - loss): 0.8241758241758241
+training set:  725
+validation set:  182
+current generation: 278
+current best individual: [2, 5, 0, 1, 5, 9, 2, 1, 5, 4, 8, 4, 2, 4, 8, 0, 2]
+current best fitness(1 - loss): 0.7472527472527473
+training set:  725
+validation set:  182
+current generation: 279
+current best individual: [2, 5, 0, 1, 5, 9, 2, 1, 5, 4, 8, 4, 2, 4, 8, 0, 2]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 280
+current best individual: [2, 5, 0, 1, 5, 9, 2, 1, 5, 4, 8, 4, 2, 4, 8, 0, 2]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 281
+current best individual: [2, 5, 0, 1, 5, 7, 2, 1, 5, 4, 4, 4, 2, 9, 8, 0, 2]
+current best fitness(1 - loss): 0.7747252747252747
+training set:  725
+validation set:  182
+current generation: 282
+current best individual: [2, 5, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 2, 4, 8, 0, 2]
+current best fitness(1 - loss): 0.7362637362637363
+training set:  725
+validation set:  182
+current generation: 283
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 2, 4, 8, 0, 2]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 284
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 2, 4, 8, 0, 2]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 285
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 2, 4, 8, 0, 2]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 286
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 2, 4, 8, 0, 2]
+current best fitness(1 - loss): 0.8296703296703296
+training set:  725
+validation set:  182
+current generation: 287
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 2, 4, 7, 0, 2]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 288
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 2, 4, 8, 0, 2]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 289
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 2, 4, 3, 0, 2]
+current best fitness(1 - loss): 0.7527472527472527
+training set:  725
+validation set:  182
+current generation: 290
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 2, 4, 8, 0, 2]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 291
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 2, 4, 7, 0, 2]
+current best fitness(1 - loss): 0.8296703296703296
+training set:  725
+validation set:  182
+current generation: 292
+current best individual: [1, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 2, 4, 8, 0, 2]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 293
+current best individual: [1, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 2, 4, 8, 7, 2]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 294
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 2, 4, 8, 0, 2]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 295
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 8, 8, 4, 2, 4, 7, 0, 2]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 296
+current best individual: [1, 3, 0, 1, 5, 7, 2, 1, 5, 6, 8, 4, 2, 4, 8, 0, 2]
+current best fitness(1 - loss): 0.8131868131868132
+training set:  725
+validation set:  182
+current generation: 297
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 8, 8, 4, 2, 4, 7, 0, 2]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 298
+current best individual: [1, 3, 0, 1, 5, 7, 5, 1, 5, 4, 8, 4, 2, 4, 8, 7, 2]
+current best fitness(1 - loss): 0.8076923076923077
+training set:  725
+validation set:  182
+current generation: 299
+current best individual: [1, 3, 0, 1, 5, 7, 5, 1, 5, 4, 8, 4, 2, 4, 8, 7, 2]
+current best fitness(1 - loss): 0.8021978021978022
+training set:  725
+validation set:  182
+current generation: 300
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 2, 4, 7, 4, 2]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 301
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 2, 4, 7, 4, 2]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 302
+current best individual: [4, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 2, 4, 7, 4, 2]
+current best fitness(1 - loss): 0.8131868131868132
+training set:  725
+validation set:  182
+current generation: 303
+current best individual: [4, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 2, 4, 7, 0, 2]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 304
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 2, 4, 7, 0, 2]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 305
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 2, 4, 7, 0, 2]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 306
+current best individual: [2, 7, 0, 1, 5, 7, 2, 1, 5, 8, 8, 4, 2, 4, 7, 0, 2]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 307
+current best individual: [2, 4, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 2, 4, 7, 0, 2]
+current best fitness(1 - loss): 0.7417582417582418
+training set:  725
+validation set:  182
+current generation: 308
+current best individual: [2, 4, 0, 1, 5, 7, 2, 1, 9, 4, 8, 4, 2, 4, 7, 0, 2]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 309
+current best individual: [2, 7, 0, 1, 5, 7, 2, 1, 8, 4, 8, 4, 2, 4, 7, 0, 2]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 310
+current best individual: [2, 7, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 2, 4, 7, 0, 2]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 311
+current best individual: [2, 3, 0, 1, 5, 7, 2, 8, 5, 4, 8, 8, 2, 4, 7, 0, 2]
+current best fitness(1 - loss): 0.7747252747252747
+training set:  725
+validation set:  182
+current generation: 312
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 1, 4, 7, 0, 2]
+current best fitness(1 - loss): 0.8131868131868132
+training set:  725
+validation set:  182
+current generation: 313
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 1, 4, 7, 0, 2]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 314
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 2, 5, 7, 0, 2]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 315
+current best individual: [2, 7, 0, 1, 5, 7, 0, 1, 5, 4, 8, 4, 2, 4, 7, 0, 2]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 316
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 1, 4, 7, 0, 2]
+current best fitness(1 - loss): 0.8296703296703296
+training set:  725
+validation set:  182
+current generation: 317
+current best individual: [2, 7, 0, 1, 5, 7, 0, 1, 5, 4, 8, 4, 2, 4, 7, 0, 2]
+current best fitness(1 - loss): 0.7747252747252747
+training set:  725
+validation set:  182
+current generation: 318
+current best individual: [2, 7, 0, 1, 5, 7, 0, 1, 5, 4, 8, 4, 1, 4, 7, 0, 2]
+current best fitness(1 - loss): 0.7472527472527473
+training set:  725
+validation set:  182
+current generation: 319
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 1, 4, 7, 8, 2]
+current best fitness(1 - loss): 0.8076923076923077
+training set:  725
+validation set:  182
+current generation: 320
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 1, 4, 7, 8, 2]
+current best fitness(1 - loss): 0.8076923076923077
+training set:  725
+validation set:  182
+current generation: 321
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 1, 4, 7, 0, 7]
+current best fitness(1 - loss): 0.7417582417582418
+training set:  725
+validation set:  182
+current generation: 322
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 1, 4, 7, 0, 7]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 323
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 1, 1, 7, 0, 7]
+current best fitness(1 - loss): 0.8296703296703296
+training set:  725
+validation set:  182
+current generation: 324
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 1, 4, 7, 0, 7]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 325
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 1, 1, 7, 0, 7]
+current best fitness(1 - loss): 0.7527472527472527
+training set:  725
+validation set:  182
+current generation: 326
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 4, 8, 4, 1, 1, 7, 0, 7]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 327
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 0, 8, 4, 1, 1, 7, 0, 7]
+current best fitness(1 - loss): 0.7527472527472527
+training set:  725
+validation set:  182
+current generation: 328
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 0, 8, 4, 1, 1, 7, 0, 7]
+current best fitness(1 - loss): 0.7362637362637363
+training set:  725
+validation set:  182
+current generation: 329
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 0, 8, 4, 1, 1, 7, 0, 7]
+current best fitness(1 - loss): 0.7417582417582418
+training set:  725
+validation set:  182
+current generation: 330
+current best individual: [1, 3, 0, 1, 5, 7, 2, 1, 5, 0, 8, 4, 1, 1, 7, 0, 7]
+current best fitness(1 - loss): 0.8021978021978022
+training set:  725
+validation set:  182
+current generation: 331
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 0, 8, 4, 1, 1, 7, 0, 2]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 332
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 0, 8, 4, 1, 1, 7, 0, 2]
+current best fitness(1 - loss): 0.8241758241758241
+training set:  725
+validation set:  182
+current generation: 333
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 0, 8, 4, 1, 1, 7, 0, 7]
+current best fitness(1 - loss): 0.8351648351648352
+training set:  725
+validation set:  182
+current generation: 334
+current best individual: [2, 3, 0, 1, 5, 7, 2, 1, 5, 0, 8, 4, 1, 1, 7, 0, 2]
+current best fitness(1 - loss): 0.8131868131868132
+training set:  725
+validation set:  182
+current generation: 335
+current best individual: [2, 5, 0, 1, 5, 7, 2, 1, 5, 0, 8, 4, 1, 1, 7, 0, 2]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 336
+current best individual: [0, 5, 0, 1, 5, 7, 2, 1, 5, 0, 8, 4, 1, 1, 7, 0, 2]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 337
+current best individual: [0, 5, 0, 1, 5, 7, 2, 1, 5, 0, 8, 4, 1, 1, 7, 0, 2]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 338
+current best individual: [0, 5, 0, 1, 5, 7, 2, 1, 5, 0, 5, 4, 1, 1, 7, 0, 2]
+current best fitness(1 - loss): 0.8296703296703296
+training set:  725
+validation set:  182
+current generation: 339
+current best individual: [0, 5, 0, 3, 0, 7, 2, 1, 5, 0, 8, 4, 1, 1, 7, 0, 2]
+current best fitness(1 - loss): 0.7527472527472527
+training set:  725
+validation set:  182
+current generation: 340
+current best individual: [0, 5, 0, 3, 0, 7, 2, 1, 5, 0, 8, 4, 1, 1, 7, 0, 2]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 341
+current best individual: [0, 5, 0, 3, 0, 7, 2, 1, 5, 0, 8, 4, 1, 1, 7, 0, 2]
+current best fitness(1 - loss): 0.6538461538461539
+training set:  725
+validation set:  182
+current generation: 342
+current best individual: [0, 5, 0, 3, 0, 7, 2, 1, 5, 0, 8, 7, 1, 1, 7, 0, 2]
+current best fitness(1 - loss): 0.6978021978021978
+training set:  725
+validation set:  182
+current generation: 343
+current best individual: [0, 5, 0, 3, 0, 7, 2, 1, 5, 0, 8, 4, 4, 1, 7, 0, 2]
+current best fitness(1 - loss): 0.6923076923076923
+training set:  725
+validation set:  182
+current generation: 344
+current best individual: [0, 5, 0, 3, 0, 7, 2, 1, 5, 0, 8, 4, 4, 1, 7, 0, 2]
+current best fitness(1 - loss): 0.7252747252747253
+training set:  725
+validation set:  182
+current generation: 345
+current best individual: [0, 5, 0, 3, 0, 7, 2, 1, 5, 0, 8, 9, 4, 1, 7, 0, 2]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 346
+current best individual: [0, 5, 0, 3, 0, 7, 2, 1, 5, 0, 8, 6, 4, 1, 7, 0, 2]
+current best fitness(1 - loss): 0.7417582417582418
+training set:  725
+validation set:  182
+current generation: 347
+current best individual: [0, 5, 0, 3, 0, 7, 2, 1, 4, 0, 8, 6, 4, 1, 7, 0, 2]
+current best fitness(1 - loss): 0.7362637362637363
+training set:  725
+validation set:  182
+current generation: 348
+current best individual: [0, 5, 0, 3, 0, 7, 2, 1, 5, 0, 8, 9, 5, 1, 7, 0, 2]
+current best fitness(1 - loss): 0.7307692307692308
+training set:  725
+validation set:  182
+current generation: 349
+current best individual: [0, 5, 0, 3, 0, 7, 2, 1, 5, 0, 8, 9, 5, 1, 7, 0, 2]
+current best fitness(1 - loss): 0.6978021978021978
+training set:  725
+validation set:  182
+current generation: 350
+current best individual: [0, 5, 0, 3, 0, 7, 2, 1, 5, 0, 8, 9, 5, 1, 7, 0, 2]
+current best fitness(1 - loss): 0.6703296703296704
+training set:  725
+validation set:  182
+current generation: 351
+current best individual: [0, 5, 0, 3, 0, 7, 2, 1, 5, 0, 8, 9, 5, 1, 5, 0, 2]
+current best fitness(1 - loss): 0.7087912087912087
+training set:  725
+validation set:  182
+current generation: 352
+current best individual: [0, 5, 0, 3, 0, 7, 2, 1, 5, 0, 8, 9, 5, 1, 5, 0, 2]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 353
+current best individual: [0, 5, 0, 3, 1, 7, 2, 1, 5, 0, 8, 9, 5, 1, 5, 0, 2]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 354
+current best individual: [0, 5, 0, 3, 1, 7, 2, 1, 5, 0, 8, 9, 5, 1, 4, 0, 2]
+current best fitness(1 - loss): 0.7362637362637363
+training set:  725
+validation set:  182
+current generation: 355
+current best individual: [0, 5, 0, 3, 1, 7, 8, 1, 5, 0, 8, 9, 5, 1, 4, 0, 2]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 356
+current best individual: [9, 5, 0, 3, 1, 7, 2, 1, 5, 0, 8, 9, 5, 1, 4, 0, 2]
+current best fitness(1 - loss): 0.7417582417582418
+training set:  725
+validation set:  182
+current generation: 357
+current best individual: [0, 5, 0, 3, 1, 7, 2, 1, 5, 0, 8, 9, 1, 1, 4, 0, 2]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 358
+current best individual: [0, 5, 0, 3, 1, 7, 2, 4, 5, 0, 8, 9, 1, 1, 4, 0, 2]
+current best fitness(1 - loss): 0.7747252747252747
+training set:  725
+validation set:  182
+current generation: 359
+current best individual: [0, 5, 0, 3, 1, 7, 2, 1, 5, 0, 8, 9, 5, 1, 5, 0, 2]
+current best fitness(1 - loss): 0.8186813186813187
+training set:  725
+validation set:  182
+current generation: 360
+current best individual: [0, 5, 0, 3, 7, 7, 2, 1, 5, 0, 8, 9, 5, 1, 4, 0, 2]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 361
+current best individual: [0, 5, 0, 3, 1, 7, 2, 1, 5, 0, 8, 9, 5, 1, 4, 0, 2]
+current best fitness(1 - loss): 0.7417582417582418
+training set:  725
+validation set:  182
+current generation: 362
+current best individual: [0, 5, 0, 3, 7, 7, 2, 1, 5, 0, 8, 9, 5, 1, 4, 0, 2]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 363
+current best individual: [0, 5, 0, 3, 7, 7, 2, 1, 5, 0, 8, 9, 5, 1, 4, 0, 2]
+current best fitness(1 - loss): 0.8241758241758241
+training set:  725
+validation set:  182
+current generation: 364
+current best individual: [0, 5, 0, 3, 7, 7, 2, 1, 5, 0, 8, 9, 5, 1, 4, 0, 2]
+current best fitness(1 - loss): 0.7252747252747253
+training set:  725
+validation set:  182
+current generation: 365
+current best individual: [0, 5, 0, 3, 1, 7, 2, 1, 5, 0, 8, 9, 7, 1, 4, 0, 2]
+current best fitness(1 - loss): 0.8186813186813187
+training set:  725
+validation set:  182
+current generation: 366
+current best individual: [0, 5, 0, 3, 7, 7, 2, 1, 5, 0, 8, 9, 5, 1, 4, 0, 2]
+current best fitness(1 - loss): 0.7417582417582418
+training set:  725
+validation set:  182
+current generation: 367
+current best individual: [0, 5, 0, 3, 7, 7, 2, 1, 5, 0, 8, 9, 5, 1, 4, 0, 2]
+current best fitness(1 - loss): 0.7527472527472527
+training set:  725
+validation set:  182
+current generation: 368
+current best individual: [0, 5, 0, 3, 1, 7, 2, 1, 5, 0, 8, 9, 5, 1, 4, 0, 2]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 369
+current best individual: [0, 5, 0, 3, 7, 7, 2, 1, 5, 0, 8, 9, 7, 1, 4, 0, 2]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 370
+current best individual: [0, 5, 0, 3, 7, 7, 2, 6, 5, 0, 8, 9, 5, 1, 4, 0, 2]
+current best fitness(1 - loss): 0.7307692307692308
+training set:  725
+validation set:  182
+current generation: 371
+current best individual: [0, 5, 0, 3, 7, 7, 2, 1, 5, 0, 8, 9, 5, 1, 4, 0, 2]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 372
+current best individual: [0, 5, 0, 3, 7, 7, 2, 1, 5, 0, 8, 9, 5, 1, 4, 0, 2]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 373
+current best individual: [0, 5, 0, 3, 6, 7, 2, 1, 5, 0, 8, 9, 5, 1, 4, 0, 2]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 374
+current best individual: [0, 5, 0, 3, 6, 7, 2, 1, 5, 0, 8, 9, 5, 1, 4, 0, 2]
+current best fitness(1 - loss): 0.8076923076923077
+training set:  725
+validation set:  182
+current generation: 375
+current best individual: [0, 5, 0, 3, 6, 7, 2, 1, 5, 6, 8, 9, 5, 1, 4, 0, 2]
+current best fitness(1 - loss): 0.7472527472527473
+training set:  725
+validation set:  182
+current generation: 376
+current best individual: [0, 5, 0, 3, 6, 7, 2, 6, 6, 0, 8, 9, 5, 1, 4, 0, 2]
+current best fitness(1 - loss): 0.7362637362637363
+training set:  725
+validation set:  182
+current generation: 377
+current best individual: [0, 5, 0, 3, 6, 7, 2, 6, 6, 0, 8, 9, 5, 1, 4, 0, 2]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 378
+current best individual: [0, 5, 0, 3, 3, 7, 2, 6, 6, 0, 8, 9, 5, 1, 4, 0, 2]
+current best fitness(1 - loss): 0.7527472527472527
+training set:  725
+validation set:  182
+current generation: 379
+current best individual: [0, 5, 0, 3, 3, 7, 2, 9, 6, 0, 8, 9, 5, 1, 4, 0, 6]
+current best fitness(1 - loss): 0.7417582417582418
+training set:  725
+validation set:  182
+current generation: 380
+current best individual: [0, 5, 0, 3, 3, 7, 2, 9, 4, 0, 8, 9, 5, 1, 4, 0, 6]
+current best fitness(1 - loss): 0.8131868131868132
+training set:  725
+validation set:  182
+current generation: 381
+current best individual: [0, 5, 0, 3, 3, 7, 2, 9, 4, 0, 8, 9, 3, 1, 4, 0, 6]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 382
+current best individual: [0, 5, 0, 3, 3, 7, 2, 9, 4, 0, 8, 9, 3, 1, 4, 0, 6]
+current best fitness(1 - loss): 0.7472527472527473
+training set:  725
+validation set:  182
+current generation: 383
+current best individual: [0, 5, 0, 3, 3, 7, 2, 9, 4, 0, 8, 9, 3, 1, 4, 0, 6]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 384
+current best individual: [0, 5, 0, 3, 3, 7, 2, 9, 4, 0, 8, 9, 3, 1, 4, 1, 6]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 385
+current best individual: [0, 5, 0, 3, 3, 7, 2, 9, 4, 5, 8, 9, 3, 1, 4, 1, 6]
+current best fitness(1 - loss): 0.8021978021978022
+training set:  725
+validation set:  182
+current generation: 386
+current best individual: [0, 5, 0, 3, 3, 7, 2, 9, 4, 0, 8, 9, 3, 1, 4, 1, 8]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 387
+current best individual: [0, 5, 0, 3, 3, 7, 2, 9, 4, 0, 8, 9, 3, 1, 4, 4, 8]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 388
+current best individual: [0, 5, 0, 3, 3, 7, 2, 9, 4, 0, 8, 9, 3, 1, 4, 1, 8]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 389
+current best individual: [0, 5, 0, 3, 3, 7, 2, 9, 4, 0, 8, 9, 3, 1, 4, 4, 8]
+current best fitness(1 - loss): 0.8241758241758241
+training set:  725
+validation set:  182
+current generation: 390
+current best individual: [0, 5, 0, 3, 3, 7, 5, 9, 4, 0, 8, 9, 3, 1, 4, 4, 8]
+current best fitness(1 - loss): 0.8131868131868132
+training set:  725
+validation set:  182
+current generation: 391
+current best individual: [0, 5, 0, 3, 3, 7, 2, 9, 4, 0, 8, 9, 3, 1, 4, 4, 8]
+current best fitness(1 - loss): 0.8296703296703296
+training set:  725
+validation set:  182
+current generation: 392
+current best individual: [0, 5, 0, 3, 3, 7, 5, 9, 4, 0, 8, 9, 3, 1, 4, 4, 8]
+current best fitness(1 - loss): 0.7362637362637363
+training set:  725
+validation set:  182
+current generation: 393
+current best individual: [0, 5, 0, 3, 3, 7, 5, 9, 4, 0, 8, 9, 3, 1, 4, 4, 8]
+current best fitness(1 - loss): 0.7747252747252747
+training set:  725
+validation set:  182
+current generation: 394
+current best individual: [0, 5, 0, 3, 3, 7, 5, 9, 4, 0, 8, 9, 3, 1, 4, 4, 8]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 395
+current best individual: [0, 5, 0, 3, 3, 7, 5, 9, 4, 0, 8, 9, 3, 1, 4, 4, 8]
+current best fitness(1 - loss): 0.7142857142857143
+training set:  725
+validation set:  182
+current generation: 396
+current best individual: [0, 5, 0, 3, 3, 7, 5, 9, 4, 0, 8, 9, 3, 1, 4, 4, 8]
+current best fitness(1 - loss): 0.6703296703296704
+training set:  725
+validation set:  182
+current generation: 397
+current best individual: [0, 5, 0, 3, 3, 7, 5, 9, 4, 0, 8, 9, 3, 1, 4, 4, 8]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 398
+current best individual: [0, 5, 0, 3, 3, 7, 5, 9, 4, 0, 8, 9, 3, 2, 4, 4, 8]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 399
+current best individual: [0, 5, 0, 3, 3, 7, 5, 9, 4, 0, 8, 9, 3, 1, 2, 4, 8]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 400
+current best individual: [0, 5, 0, 3, 3, 7, 5, 9, 4, 0, 8, 9, 3, 1, 7, 4, 8]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 401
+current best individual: [0, 5, 0, 3, 3, 7, 5, 9, 4, 0, 8, 0, 3, 1, 4, 4, 8]
+current best fitness(1 - loss): 0.7417582417582418
+training set:  725
+validation set:  182
+current generation: 402
+current best individual: [0, 2, 0, 3, 3, 7, 5, 9, 4, 0, 8, 9, 3, 1, 4, 4, 8]
+current best fitness(1 - loss): 0.7637362637362637
+training set:  725
+validation set:  182
+current generation: 403
+current best individual: [0, 2, 0, 3, 3, 7, 5, 9, 4, 0, 8, 9, 3, 1, 4, 4, 8]
+current best fitness(1 - loss): 0.8186813186813187
+training set:  725
+validation set:  182
+current generation: 404
+current best individual: [0, 5, 0, 3, 3, 7, 5, 9, 4, 0, 8, 9, 3, 1, 4, 3, 8]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 405
+current best individual: [0, 5, 0, 3, 3, 2, 5, 9, 4, 0, 8, 9, 3, 1, 4, 4, 8]
+current best fitness(1 - loss): 0.7417582417582418
+training set:  725
+validation set:  182
+current generation: 406
+current best individual: [0, 2, 0, 3, 3, 7, 5, 9, 4, 0, 8, 9, 3, 1, 4, 4, 8]
+current best fitness(1 - loss): 0.7417582417582418
+training set:  725
+validation set:  182
+current generation: 407
+current best individual: [0, 2, 0, 3, 3, 7, 5, 9, 4, 0, 8, 9, 3, 1, 4, 4, 8]
+current best fitness(1 - loss): 0.7527472527472527
+training set:  725
+validation set:  182
+current generation: 408
+current best individual: [0, 2, 0, 3, 3, 7, 5, 9, 4, 0, 8, 9, 3, 1, 4, 4, 8]
+current best fitness(1 - loss): 0.7362637362637363
+training set:  725
+validation set:  182
+current generation: 409
+current best individual: [0, 2, 0, 3, 3, 7, 5, 9, 4, 0, 8, 9, 3, 1, 4, 4, 8]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 410
+current best individual: [0, 2, 0, 3, 3, 7, 5, 9, 4, 0, 8, 9, 3, 1, 4, 4, 4]
+current best fitness(1 - loss): 0.7417582417582418
+training set:  725
+validation set:  182
+current generation: 411
+current best individual: [0, 2, 0, 3, 3, 7, 5, 9, 4, 6, 8, 9, 3, 1, 4, 4, 4]
+current best fitness(1 - loss): 0.7307692307692308
+training set:  725
+validation set:  182
+current generation: 412
+current best individual: [0, 2, 0, 3, 3, 7, 5, 9, 4, 6, 8, 9, 3, 1, 4, 4, 1]
+current best fitness(1 - loss): 0.8186813186813187
+training set:  725
+validation set:  182
+current generation: 413
+current best individual: [0, 5, 0, 3, 3, 7, 5, 9, 4, 6, 8, 9, 3, 1, 4, 2, 1]
+current best fitness(1 - loss): 0.8406593406593407
+training set:  725
+validation set:  182
+current generation: 414
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 9, 3, 1, 4, 2, 1]
+current best fitness(1 - loss): 0.7747252747252747
+training set:  725
+validation set:  182
+current generation: 415
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 1, 4, 2, 1]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 416
+current best individual: [0, 2, 0, 3, 3, 7, 5, 9, 4, 6, 8, 9, 3, 1, 4, 4, 4]
+current best fitness(1 - loss): 0.8076923076923077
+training set:  725
+validation set:  182
+current generation: 417
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 1, 4, 2, 1]
+current best fitness(1 - loss): 0.7472527472527473
+training set:  725
+validation set:  182
+current generation: 418
+current best individual: [0, 2, 0, 3, 3, 8, 5, 9, 4, 6, 8, 9, 3, 1, 4, 2, 1]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 419
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 1, 4, 2, 1]
+current best fitness(1 - loss): 0.8406593406593407
+training set:  725
+validation set:  182
+current generation: 420
+current best individual: [0, 2, 0, 1, 3, 7, 5, 9, 4, 6, 8, 9, 3, 1, 4, 2, 1]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 421
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 1, 4, 2, 1]
+current best fitness(1 - loss): 0.7142857142857143
+training set:  725
+validation set:  182
+current generation: 422
+current best individual: [0, 2, 0, 3, 3, 8, 5, 9, 4, 6, 8, 9, 3, 1, 4, 2, 1]
+current best fitness(1 - loss): 0.7417582417582418
+training set:  725
+validation set:  182
+current generation: 423
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 1, 4, 2, 1]
+current best fitness(1 - loss): 0.8076923076923077
+training set:  725
+validation set:  182
+current generation: 424
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 1, 4, 7, 1]
+current best fitness(1 - loss): 0.8186813186813187
+training set:  725
+validation set:  182
+current generation: 425
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7362637362637363
+training set:  725
+validation set:  182
+current generation: 426
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.8296703296703296
+training set:  725
+validation set:  182
+current generation: 427
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 2, 8, 6, 3, 1, 4, 2, 1]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 428
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 2, 9, 2, 1]
+current best fitness(1 - loss): 0.8241758241758241
+training set:  725
+validation set:  182
+current generation: 429
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 2, 9, 2, 1]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 430
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 2, 9, 2, 1]
+current best fitness(1 - loss): 0.7747252747252747
+training set:  725
+validation set:  182
+current generation: 431
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 2, 9, 2, 1]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 432
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7142857142857143
+training set:  725
+validation set:  182
+current generation: 433
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7472527472527473
+training set:  725
+validation set:  182
+current generation: 434
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.8241758241758241
+training set:  725
+validation set:  182
+current generation: 435
+current best individual: [0, 2, 0, 3, 3, 1, 0, 9, 4, 6, 8, 6, 3, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 436
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 437
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 5, 9, 2, 1]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 438
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7362637362637363
+training set:  725
+validation set:  182
+current generation: 439
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 440
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 441
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 1, 9, 3, 1]
+current best fitness(1 - loss): 0.8241758241758241
+training set:  725
+validation set:  182
+current generation: 442
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 1, 9, 3, 1]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 443
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 1, 9, 3, 1]
+current best fitness(1 - loss): 0.7747252747252747
+training set:  725
+validation set:  182
+current generation: 444
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 1, 9, 3, 1]
+current best fitness(1 - loss): 0.7362637362637363
+training set:  725
+validation set:  182
+current generation: 445
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 1, 9, 3, 1]
+current best fitness(1 - loss): 0.8186813186813187
+training set:  725
+validation set:  182
+current generation: 446
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 0, 3, 1, 9, 3, 1]
+current best fitness(1 - loss): 0.7527472527472527
+training set:  725
+validation set:  182
+current generation: 447
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 0, 3, 1, 9, 3, 1]
+current best fitness(1 - loss): 0.8076923076923077
+training set:  725
+validation set:  182
+current generation: 448
+current best individual: [3, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 0, 3, 1, 9, 3, 1]
+current best fitness(1 - loss): 0.8241758241758241
+training set:  725
+validation set:  182
+current generation: 449
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 0, 3, 1, 9, 3, 1]
+current best fitness(1 - loss): 0.8021978021978022
+training set:  725
+validation set:  182
+current generation: 450
+current best individual: [0, 2, 0, 3, 0, 7, 0, 9, 4, 6, 8, 0, 3, 1, 9, 3, 1]
+current best fitness(1 - loss): 0.7252747252747253
+training set:  725
+validation set:  182
+current generation: 451
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 2, 3, 1, 9, 3, 1]
+current best fitness(1 - loss): 0.7307692307692308
+training set:  725
+validation set:  182
+current generation: 452
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 0, 3, 1, 0, 3, 1]
+current best fitness(1 - loss): 0.8021978021978022
+training set:  725
+validation set:  182
+current generation: 453
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 0, 3, 1, 9, 3, 1]
+current best fitness(1 - loss): 0.7747252747252747
+training set:  725
+validation set:  182
+current generation: 454
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 0, 3, 1, 9, 3, 1]
+current best fitness(1 - loss): 0.8241758241758241
+training set:  725
+validation set:  182
+current generation: 455
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 1, 3, 3, 1]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 456
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 1, 9, 3, 1]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 457
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 1, 3, 3, 1]
+current best fitness(1 - loss): 0.7747252747252747
+training set:  725
+validation set:  182
+current generation: 458
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 1, 3, 2, 1]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 459
+current best individual: [0, 2, 0, 3, 6, 7, 0, 9, 4, 6, 8, 6, 3, 1, 9, 3, 1]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 460
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 1, 3, 2, 1]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 461
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 1, 3, 2, 1]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 462
+current best individual: [0, 2, 0, 3, 6, 7, 0, 9, 2, 6, 8, 6, 3, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 463
+current best individual: [0, 2, 0, 3, 6, 7, 0, 9, 4, 6, 3, 6, 3, 1, 3, 3, 1]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 464
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 3, 1, 3, 2, 1]
+current best fitness(1 - loss): 0.8241758241758241
+training set:  725
+validation set:  182
+current generation: 465
+current best individual: [0, 2, 0, 3, 6, 7, 0, 9, 7, 6, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.8516483516483516
+training set:  725
+validation set:  182
+current generation: 466
+current best individual: [0, 2, 0, 3, 6, 7, 0, 9, 7, 6, 1, 6, 3, 1, 3, 2, 1]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 467
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.8021978021978022
+training set:  725
+validation set:  182
+current generation: 468
+current best individual: [0, 2, 0, 3, 6, 7, 0, 9, 7, 6, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.8296703296703296
+training set:  725
+validation set:  182
+current generation: 469
+current best individual: [0, 2, 0, 3, 6, 7, 0, 9, 4, 6, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 470
+current best individual: [0, 5, 0, 3, 6, 7, 0, 9, 4, 6, 8, 6, 3, 1, 3, 3, 2]
+current best fitness(1 - loss): 0.7472527472527473
+training set:  725
+validation set:  182
+current generation: 471
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.8186813186813187
+training set:  725
+validation set:  182
+current generation: 472
+current best individual: [0, 2, 0, 3, 6, 7, 0, 9, 4, 6, 8, 6, 3, 1, 3, 3, 2]
+current best fitness(1 - loss): 0.8131868131868132
+training set:  725
+validation set:  182
+current generation: 473
+current best individual: [0, 2, 0, 3, 6, 7, 0, 9, 0, 6, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 474
+current best individual: [0, 2, 0, 3, 6, 7, 0, 9, 0, 6, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.8131868131868132
+training set:  725
+validation set:  182
+current generation: 475
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 476
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 0, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 477
+current best individual: [0, 2, 0, 3, 6, 7, 0, 9, 0, 6, 8, 6, 3, 1, 3, 3, 2]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 478
+current best individual: [0, 2, 0, 3, 6, 7, 0, 9, 4, 6, 8, 6, 3, 1, 3, 3, 2]
+current best fitness(1 - loss): 0.8076923076923077
+training set:  725
+validation set:  182
+current generation: 479
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 8, 6, 1, 1, 9, 2, 2]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 480
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 6, 3, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 481
+current best individual: [0, 2, 0, 3, 6, 7, 0, 9, 4, 6, 8, 6, 3, 1, 3, 3, 2]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 482
+current best individual: [0, 2, 0, 3, 6, 7, 0, 9, 4, 6, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.8241758241758241
+training set:  725
+validation set:  182
+current generation: 483
+current best individual: [0, 2, 0, 3, 3, 7, 0, 9, 4, 0, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 484
+current best individual: [0, 2, 0, 3, 6, 7, 0, 9, 4, 0, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7197802197802198
+training set:  725
+validation set:  182
+current generation: 485
+current best individual: [0, 2, 0, 3, 6, 7, 0, 9, 4, 0, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.8406593406593407
+training set:  725
+validation set:  182
+current generation: 486
+current best individual: [0, 2, 0, 2, 3, 7, 0, 9, 4, 3, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.8131868131868132
+training set:  725
+validation set:  182
+current generation: 487
+current best individual: [0, 2, 0, 2, 3, 7, 0, 9, 4, 3, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.8406593406593407
+training set:  725
+validation set:  182
+current generation: 488
+current best individual: [0, 2, 0, 3, 6, 7, 0, 9, 4, 6, 3, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7912087912087912
+training set:  725
+validation set:  182
+current generation: 489
+current best individual: [0, 2, 0, 3, 8, 7, 0, 9, 7, 6, 8, 6, 1, 1, 9, 2, 3]
+current best fitness(1 - loss): 0.7417582417582418
+training set:  725
+validation set:  182
+current generation: 490
+current best individual: [0, 2, 0, 2, 3, 7, 0, 9, 4, 0, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.8076923076923077
+training set:  725
+validation set:  182
+current generation: 491
+current best individual: [0, 2, 0, 3, 6, 7, 0, 8, 6, 6, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.8021978021978022
+training set:  725
+validation set:  182
+current generation: 492
+current best individual: [0, 2, 0, 3, 8, 7, 0, 9, 7, 6, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 493
+current best individual: [0, 2, 0, 3, 8, 7, 0, 9, 7, 6, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7967032967032968
+training set:  725
+validation set:  182
+current generation: 494
+current best individual: [0, 2, 0, 3, 8, 7, 0, 9, 7, 6, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7472527472527473
+training set:  725
+validation set:  182
+current generation: 495
+current best individual: [0, 2, 0, 3, 8, 7, 0, 9, 4, 0, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7362637362637363
+training set:  725
+validation set:  182
+current generation: 496
+current best individual: [0, 2, 0, 3, 6, 7, 0, 9, 7, 6, 8, 6, 1, 1, 9, 2, 9]
+current best fitness(1 - loss): 0.7307692307692308
+training set:  725
+validation set:  182
+current generation: 497
+current best individual: [0, 2, 0, 3, 6, 7, 0, 9, 7, 6, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7802197802197802
+training set:  725
+validation set:  182
+current generation: 498
+current best individual: [0, 2, 0, 3, 8, 7, 0, 9, 7, 6, 8, 6, 1, 1, 3, 2, 1]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 499
+current best individual: [0, 2, 0, 3, 6, 7, 0, 9, 7, 6, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7417582417582418
+training set:  725
+validation set:  182
+current generation: 500
+current best individual: [0, 2, 0, 3, 8, 7, 0, 9, 7, 6, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.8131868131868132
+training set:  725
+validation set:  182
+current generation: 501
+current best individual: [0, 2, 0, 3, 8, 7, 5, 9, 7, 6, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.8131868131868132
+training set:  725
+validation set:  182
+current generation: 502
+current best individual: [0, 2, 0, 3, 8, 3, 5, 9, 7, 6, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7582417582417582
+training set:  725
+validation set:  182
+current generation: 503
+current best individual: [0, 2, 0, 3, 8, 7, 5, 9, 7, 6, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 504
+current best individual: [0, 2, 0, 3, 8, 7, 0, 9, 4, 0, 3, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 505
+current best individual: [0, 2, 0, 3, 8, 7, 0, 9, 4, 0, 3, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7857142857142857
+training set:  725
+validation set:  182
+current generation: 506
+current best individual: [3, 2, 0, 3, 8, 3, 5, 9, 7, 6, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 507
+current best individual: [0, 1, 0, 4, 6, 7, 0, 9, 4, 0, 3, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.8571428571428572
+training set:  725
+validation set:  182
+current generation: 508
+current best individual: [0, 2, 0, 3, 6, 7, 0, 9, 7, 6, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7197802197802198
+training set:  725
+validation set:  182
+current generation: 509
+current best individual: [0, 2, 0, 3, 8, 7, 0, 9, 7, 6, 8, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7692307692307692
+training set:  725
+validation set:  182
+current generation: 510
+current best individual: [0, 2, 0, 3, 8, 7, 0, 9, 4, 0, 3, 6, 1, 1, 9, 2, 1]
+current best fitness(1 - loss): 0.7637362637362637
