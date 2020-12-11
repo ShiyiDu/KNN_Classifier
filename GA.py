@@ -100,6 +100,7 @@ def first_generation(length, gene_pool, gen_size):
 def fitness_func(individual):
     k = individual[14] + individual[15] + individual[16] + 1
     weights = np.array(individual[0:14])
+    weights[2] = float(weights[2] / 10000)
 
     def distance_function(x, y):
         return np.sum(((x - y) * weights) ** 2)
