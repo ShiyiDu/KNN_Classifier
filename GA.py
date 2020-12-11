@@ -100,10 +100,14 @@ def first_generation(length, gene_pool, gen_size):
 def fitness_func(individual):
     k = individual[14] + individual[15] + individual[16] + 1
     weights = np.array(individual[0:14])
-    weights[2] = float(weights[2] / 10000)
 
     def distance_function(x, y):
-        return np.sum(((x - y) * weights) ** 2)
+        # print("wtf", x[2])
+        diff = (x - y)
+        diff[2] = diff[2] / 10000
+        result = (diff * weights) ** 2
+        # print("diff2:", diff)
+        return np.sum(result)
 
     model = knn.get_model(k=k, dist=distance_function)
     loss = knn.get_loss(model=model)
