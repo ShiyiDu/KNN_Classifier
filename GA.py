@@ -130,30 +130,43 @@ def best_fit(population):
     return current_best
 
 
-knn = KNN(total=0.075, ratio=0.8)
+def opt_dis(x, y):
+    individual = [0, 1, 0, 4, 6, 7, 0, 9, 4, 0, 3, 6, 1, 1, 9, 2, 1]
+    # k = individual[14] + individual[15] + individual[16] + 1
+    weights = np.array(individual[0:14])
+    diff = (x - y)
+    diff[2] = diff[2] / 10000
+    result = (diff * weights) ** 2
+    # print("diff2:", diff)
+    return np.sum(result)
 
-pool = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+knn = KNN(total=1, ratio=0.8)
+model = knn.get_model(k=13, dist=opt_dis)
+print(knn.get_loss(model=model))
+
+# pool = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 # target = [2, 1, 4, 4, 3, 8, 4, 6, 9, 1, 1, 2, 3, 4,]
-current_pop = first_generation(17, pool, popolation_size)  # the sum of the last 3 value (14, 15, 16) + 1 is the k value
+# current_pop = first_generation(17, pool, popolation_size)  # the sum of the last 3 value (14, 15, 16) + 1 is the k value
 # print(current_pop)
-counter = 0
+# counter = 0
 
-for i in range(generation_size):
-    print("current generation:", i)
-    sel = selection(current_pop, debug=True)
-    # print("current selected size:", len(sel))
-    cro = cross_over(current_pop, popolation_size - len(sel))
-    new_pop = mutation(sel + cro, pool)
-    current_pop = new_pop
-    # print(best_fit(current_pop))
-    knn.re_sample()
-    # counter += 1
-    # print("current generation size", len(current_pop))
-    # if counter > generation_size:
-    #     break
+# for i in range(generation_size):
+#     print("current generation:", i)
+#     sel = selection(current_pop, debug=True)
+#     # print("current selected size:", len(sel))
+#     cro = cross_over(current_pop, popolation_size - len(sel))
+#     new_pop = mutation(sel + cro, pool)
+#     current_pop = new_pop
+#     # print(best_fit(current_pop))
+#     knn.re_sample()
+#     # counter += 1
+#     # print("current generation size", len(current_pop))
+#     # if counter > generation_size:
+#     #     break
 
-print("result:", best_fit(current_pop))
-print("generations:", counter)
+# print("result:", best_fit(current_pop))
+# print("generations:", counter)
 # print(len(selection([None] * 100)))
 
 # print(first_generation(9, pool, 20))
