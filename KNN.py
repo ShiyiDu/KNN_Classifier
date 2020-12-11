@@ -29,18 +29,21 @@ class KNN:
     training_y = []  # the result(class) for training data
     validation_X = []
     validation_y = []
+    total = 0.5  # how much of the entire data we want to use?
     ratio = 0.8  # the how many data from training data are we using for the model?
     model = None
 
-    def __init__(self, ratio=0.8):
+    def __init__(self, total=0.5, ratio=0.8):
         self.data = load_data(self.TRAINING_FILE)
+        self.ratio = ratio
+        self.total = total
         self.re_sample()
 
     # re_sample the training and validation data
     def re_sample(self):
         random.shuffle(self.data)
-        d_len = len(self.data)
-        t_len = int(0.8 * d_len)
+        d_len = int(len(self.data) * self.total)
+        t_len = int(self.ratio * d_len)
         training = self.data[0: t_len]
         validation = self.data[t_len: d_len]
 
@@ -53,7 +56,7 @@ class KNN:
         self.validation_X = np.array(list(map(lambda arr: arr[0:-1], validation)))
         self.validation_y = np.array(list(map(lambda arr: arr[-1], validation)))
 
-    def get_model(self, k, dist, ratio):
+    def get_model(self, k, dist):
         X = self.training_X
         y = self.training_y
         # print(y[0:15])
@@ -79,6 +82,11 @@ class KNN:
         return errors / float(total)
 
 
-knn = KNN(0.8)
-model = knn.get_model(100, lambda x, y: np.sum((x - y) ** 2), 0.5)
+knn = KNN(total=0.1, ratio=0.8)
+model = knn.get_model(100, lambda x, y: np.sum((x - y) ** 2))
+knn.re_sample()
+print(knn.get_loss())
+knn.re_sample()
+print(knn.get_loss())
+knn.re_sample()
 print(knn.get_loss())
