@@ -61,7 +61,8 @@ class KNN:
         y = self.training_y
         # print(y[0:15])
         # my_dist = DistanceMetric.get_metric('pyfunc', func=dist)
-        nbrs = KNeighborsClassifier(n_neighbors=k, algorithm='ball_tree', metric='pyfunc', metric_params={'func': dist})
+        nbrs = KNeighborsClassifier(n_neighbors=k, weights='distance', algorithm='ball_tree', metric='pyfunc',
+                                    metric_params={'func': dist})
         nbrs.fit(X, y)
         # print(nbrs.kneighbors([[36, 3, 220696, 11, 9, 0, 6, 1, 4, 1, 0, 0, 40, 38]]))
         # print("prediction:", nbrs.predict([[52, 5, 240013, 12, 14, 2, 11, 0, 4, 1, 0, 0, 70, 38]]))
