@@ -163,7 +163,7 @@ def fitness_func(individual):
     weight_euclid = np.array(individual)[numeric_data]
 
     # weights = np.array(individual[0:14])
-    print("fitness function reached")
+    # print("fitness function reached")
 
     # print("hamming weights:", weight_hamming)
     # print("euclid weights:", weight_euclid)
@@ -217,7 +217,7 @@ def iteration(individual):
     knn.re_sample()
 
 
-knn = KNN(total=0.05, ratio=0.8)
+knn = KNN(total=0.075, ratio=0.8)
 # model = knn.get_model(k=12, dist=opt_dis)
 # print(knn.get_loss(model=model))
 
