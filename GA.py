@@ -217,7 +217,7 @@ def iteration(individual):
     knn.re_sample()
 
 
-knn = KNN(total=0.075, ratio=0.8)
+knn = KNN(total=0.075, ratio=0.5)
 # model = knn.get_model(k=12, dist=opt_dis)
 # print(knn.get_loss(model=model))
 
