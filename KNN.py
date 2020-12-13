@@ -65,14 +65,14 @@ class KNN:
         nbrs.fit(X, y)
         # print(nbrs.kneighbors([[36, 3, 220696, 11, 9, 0, 6, 1, 4, 1, 0, 0, 40, 38]]))
         # print("prediction:", nbrs.predict([[52, 5, 240013, 12, 14, 2, 11, 0, 4, 1, 0, 0, 70, 38]]))
-        self.model = nbrs;
+        self.model = nbrs
         return nbrs
 
     # calculate the 1-0 loss of the model from the validation data
-    def get_loss(self):
-        if self.model is None:
+    def get_loss(self, model=model):
+        if model is None:
             return -1
-        predictions = self.model.predict(self.validation_X)
+        predictions = model.predict(self.validation_X)
         total = len(predictions)
         errors = 0
         for i in range(total):
@@ -81,12 +81,11 @@ class KNN:
 
         return errors / float(total)
 
-
-knn = KNN(total=0.1, ratio=0.8)
-model = knn.get_model(100, lambda x, y: np.sum((x - y) ** 2))
-knn.re_sample()
-print(knn.get_loss())
-knn.re_sample()
-print(knn.get_loss())
-knn.re_sample()
-print(knn.get_loss())
+# knn = KNN(total=0.1, ratio=0.8)
+# model = knn.get_model(100, lambda x, y: np.sum((x - y) ** 2))
+# knn.re_sample()
+# print(knn.get_loss())
+# knn.re_sample()
+# print(knn.get_loss())
+# knn.re_sample()
+# print(knn.get_loss())
