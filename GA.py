@@ -10,6 +10,9 @@ import numpy as np
 
 from KNN import KNN
 
+CATEGORICAL_DATA = [1, 3, 5, 6, 7, 8, 9, 13]
+NUMERIC_DATA = [0, 2, 4, 10, 11, 12]
+
 
 class GA:
     current_pop = []
@@ -153,43 +156,51 @@ class GA:
         self.current_pop = result
 
 
-categorical_data = [1, 3, 5, 6, 7, 8, 9, 13]
-numeric_data = [0, 2, 4, 10, 11, 12]
+def iteration(individual):
+    knn.re_sample()
 
+
+def fit_func_1(individual):
+    # individual = [1, 1, 0, 1, 5, 9, 1, 1, 5, 4, 8, 4, 2, 1, 9, 0, 2]
+    k = individual[14] + individual[15] + individual[16] + 1
+    weights = np.array(individual[0:14])
+
+    def fit(x, y):
+        diff = (x - y)
+        diff[2] = diff[2] / 10000
+        result = (diff * weights) ** 2
+        return np.sqrt(np.sum(result))
+
+    model = knn.get_model(k, dist=fit)
+    loss = knn.get_loss(model=model)
+    # print("diff2:", diff)
+    return 1 - loss
+
+
+# knn = KNN(total=0.05, ratio=0.8, testing=False)
+#
+# my_ga = GA(fit_func_1, iteration, gene_pool=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9], chro_length=17)
+# my_ga.first_generation()
+# my_ga.start_training()
+#
 
 def fitness_func(individual):
     k = individual[16] * 2 + 1  # now only the last value is used to estimate T
-    weight_hamming = np.array(individual)[categorical_data]
-    weight_euclid = np.array(individual)[numeric_data]
+    weight_hamming = np.array(individual)[CATEGORICAL_DATA]
+    weight_euclid = np.array(individual)[NUMERIC_DATA]
 
     # weights = np.array(individual[0:14])
     # print("fitness function reached")
 
     # print("hamming weights:", weight_hamming)
     # print("euclid weights:", weight_euclid)
-
-    def hamming_dist(x, y, w):
-        result = 0
-        for i in range(len(x)):
-            if not x[i] == y[i]:
-                result += w[i]
-        return result
-
-    def euclid_dist(x, y, w):
-        # print("wtf", x[2])
-        diff = (x - y)
-        # diff[1] = diff[1] / 10000
-        result = (diff * w) ** 2
-        # print("diff2:", diff)
-        return np.sqrt(np.sum(result))
-
     def distance_function(x, y):
         # print(x[categorical_data])
-        x_h = x[categorical_data]
+        x_h = x[CATEGORICAL_DATA]
         # print("again", x_h)
-        y_h = y[categorical_data]
-        x_e = x[numeric_data]
-        y_e = y[numeric_data]
+        y_h = y[CATEGORICAL_DATA]
+        x_e = x[NUMERIC_DATA]
+        y_e = y[NUMERIC_DATA]
         euclid_result = euclid_dist(x_e, y_e, weight_euclid)
         hamming_result = hamming_dist(x_h, y_h, weight_hamming)
         # print("euclid distance:", euclid_result)
@@ -200,6 +211,41 @@ def fitness_func(individual):
     loss = knn.get_loss(model=model)
     fit = 1 - loss
     return fit
+
+
+def hamming_dist(x, y, w):
+    result = 0
+    for i in range(len(x)):
+        if not x[i] == y[i]:
+            result += w[i]
+    return result
+
+
+def euclid_dist(x, y, w):
+    # print("wtf", x[2])
+    diff = (x - y)
+    # diff[1] = diff[1] / 10000
+    result = (diff * w) ** 2
+    # print("diff2:", diff)
+    return np.sqrt(np.sum(result))
+
+
+def opt_dis_2(x, y):
+    # print(x[categorical_data])
+    individual = [3, 9, 0, 6, 9, 4, 2, 8, 5, 4, 1, 9, 2, 9, 2, 9, 7]
+    k = individual[16] * 2 + 1  # now only the last value is used to estimate T
+    weight_hamming = np.array(individual)[CATEGORICAL_DATA]
+    weight_euclid = np.array(individual)[NUMERIC_DATA]
+    x_h = x[CATEGORICAL_DATA]
+    # print("again", x_h)
+    y_h = y[CATEGORICAL_DATA]
+    x_e = x[NUMERIC_DATA]
+    y_e = y[NUMERIC_DATA]
+    euclid_result = euclid_dist(x_e, y_e, weight_euclid)
+    hamming_result = hamming_dist(x_h, y_h, weight_hamming)
+    # print("euclid distance:", euclid_result)
+    # print("hamming distance:", hamming_result)
+    return individual[14] * euclid_result + individual[15] * hamming_result
 
 
 def opt_dis(x, y):
@@ -213,17 +259,13 @@ def opt_dis(x, y):
     return np.sum(result)
 
 
-def iteration(individual):
-    knn.re_sample()
-
-
-knn = KNN(total=0.075, ratio=0.5)
+# knn = KNN(total=0.25, ratio=0.8, testing=True)
 # model = knn.get_model(k=12, dist=opt_dis)
-# print(knn.get_loss(model=model))
+# print("model 1:", knn.get_loss(model=model, write_file="KNN1.result"))
 
-my_ga = GA(fitness_func, iteration, gene_pool=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9], chro_length=17)
-my_ga.first_generation()
-my_ga.start_training()
+knn = KNN(total=0.25, ratio=0.8, testing=True)
+model = knn.get_model(k=12, dist=opt_dis_2)
+print("model 2: hamming + euclid", knn.get_loss(model=model, write_file="KNN_comp_dist.result"))
 
 # pool = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 # target = [2, 1, 4, 4, 3, 8, 4, 6, 9, 1, 1, 2, 3, 4,]

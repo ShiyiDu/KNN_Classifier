@@ -24,17 +24,26 @@ def load_data(file_name):
 
 class KNN:
     TRAINING_FILE = 'trainingAdult.data'
+    TESTING_FILE = 'testingAdult.test'
     data = []
+    test_data = []
     training_X = []  # the features for training data
     training_y = []  # the result(class) for training data
     validation_X = []
     validation_y = []
+    testing_X = []
+    testing_y = []
     total = 0.5  # how much of the entire data we want to use?
     ratio = 0.8  # the how many data from training data are we using for the model?
     model = None
+    testing = False
 
-    def __init__(self, total=0.5, ratio=0.8):
+    def __init__(self, total=0.5, ratio=0.8, testing=False):
         self.data = load_data(self.TRAINING_FILE)
+        if testing:
+            self.testing = testing
+            self.test_data = load_data(self.TESTING_FILE)
+            # print("testing data:", len(self.test_data))
         self.ratio = ratio
         self.total = total
         self.re_sample()
@@ -49,6 +58,11 @@ class KNN:
 
         print("training set: ", len(training))
         print("validation set: ", len(validation))
+
+        if self.testing:
+            self.testing_X = np.array(list(map(lambda arr: arr[0:-1], self.test_data)))
+            self.testing_y = np.array(list(map(lambda arr: arr[-1], self.test_data)))
+            print("testing set: ", len(self.testing_y))
 
         self.training_X = np.array(list(map(lambda arr: arr[0:-1], training)))
         self.training_y = np.array(list(map(lambda arr: arr[-1], training)))
@@ -70,14 +84,21 @@ class KNN:
         return nbrs
 
     # calculate the 1-0 loss of the model from the validation data
-    def get_loss(self, model=model):
+    def get_loss(self, model=model, write_file=None):
         if model is None:
             return -1
-        predictions = model.predict(self.validation_X)
+        predictions = model.predict(self.validation_X if not self.testing else self.testing_X)
         total = len(predictions)
         errors = 0
+
+        if not write_file is None:
+            new_file = open(write_file, "w")
+            content = "\n".join(map(str, predictions))
+            new_file.write(content)
+            new_file.close()
+
         for i in range(total):
-            if not predictions[i] == self.validation_y[i]:
+            if not predictions[i] == (self.validation_y[i] if not self.testing else self.testing_y[i]):
                 errors += 1
 
         return errors / float(total)
