@@ -97,9 +97,14 @@ class KNN:
             new_file.write(content)
             new_file.close()
 
-        for i in range(total):
-            if not predictions[i] == (self.validation_y[i] if not self.testing else self.testing_y[i]):
-                errors += 1
+        if not self.testing:
+            for i in range(total):
+                if not predictions[i] == self.validation_y[i]:
+                    errors += 1
+        else:
+            for i in range(total):
+                if not predictions[i] == self.testing_y[i]:
+                    errors += 1
 
         return errors / float(total)
 

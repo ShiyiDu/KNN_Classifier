@@ -232,7 +232,7 @@ def euclid_dist(x, y, w):
 
 def opt_dis_2(x, y):
     # print(x[categorical_data])
-    individual = [3, 9, 0, 6, 9, 4, 2, 8, 5, 4, 1, 9, 2, 9, 2, 9, 7]
+    individual = [3, 9, 0, 0, 9, 4, 2, 8, 5, 6, 6, 9, 2, 9, 3, 9, 7]
     k = individual[16] * 2 + 1  # now only the last value is used to estimate T
     weight_hamming = np.array(individual)[CATEGORICAL_DATA]
     weight_euclid = np.array(individual)[NUMERIC_DATA]
