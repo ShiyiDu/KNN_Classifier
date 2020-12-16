@@ -259,12 +259,12 @@ def opt_dis(x, y):
     return np.sum(result)
 
 
-# knn = KNN(total=0.25, ratio=0.8, testing=True)
-# model = knn.get_model(k=12, dist=opt_dis)
-# print("model 1:", knn.get_loss(model=model, write_file="KNN1.result"))
-
 knn = KNN(total=0.25, ratio=0.8, testing=True)
-model = knn.get_model(k=12, dist=opt_dis_2)
+model = knn.get_model(k=11, dist=opt_dis)
+print("model 1:", knn.get_loss(model=model, write_file="KNN_euclid_dist.result"))
+
+# knn = KNN(total=0.25, ratio=0.8, testing=True)
+model = knn.get_model(k=7, dist=opt_dis_2)
 print("model 2: hamming + euclid", knn.get_loss(model=model, write_file="KNN_comp_dist.result"))
 
 # pool = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
