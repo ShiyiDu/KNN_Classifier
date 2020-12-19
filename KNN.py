@@ -47,8 +47,8 @@ class KNN:
         training = self.data[0: t_len]
         validation = self.data[t_len: d_len]
 
-        print("training set: ", len(training))
-        print("validation set: ", len(validation))
+        # print("training set: ", len(training))
+        # print("validation set: ", len(validation))
 
         self.training_X = np.array(list(map(lambda arr: arr[0:-1], training)))
         self.training_y = np.array(list(map(lambda arr: arr[-1], training)))
@@ -56,12 +56,12 @@ class KNN:
         self.validation_X = np.array(list(map(lambda arr: arr[0:-1], validation)))
         self.validation_y = np.array(list(map(lambda arr: arr[-1], validation)))
 
-    def get_model(self, k, dist):
+    def get_model(self, k, a, w, dist):
         X = self.training_X
         y = self.training_y
         # print(y[0:15])
         # my_dist = DistanceMetric.get_metric('pyfunc', func=dist)
-        nbrs = KNeighborsClassifier(n_neighbors=k, algorithm='ball_tree', metric='pyfunc', metric_params={'func': dist})
+        nbrs = KNeighborsClassifier(n_neighbors=k, algorithm=a, weights=w, metric='pyfunc', metric_params={'func': dist})
         nbrs.fit(X, y)
         # print(nbrs.kneighbors([[36, 3, 220696, 11, 9, 0, 6, 1, 4, 1, 0, 0, 40, 38]]))
         # print("prediction:", nbrs.predict([[52, 5, 240013, 12, 14, 2, 11, 0, 4, 1, 0, 0, 70, 38]]))

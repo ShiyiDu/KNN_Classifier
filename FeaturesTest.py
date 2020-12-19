@@ -65,7 +65,15 @@ educationLabels = [
     "Prof-school",
     "Some-college"
 ]
-# maritalstatusLabels =
+maritalstatusLabels = [
+    "Divorced",
+    "Married-AF-spouse",
+    "Married-civ-spouse",
+    "Married-spouse-absent",
+    "Never-married",
+    "Separated",
+    "Widowed"
+]
 
 occupationLabels = ["Adm-clerical", "Armed-Forces", "Craft-repair", "Exec-managerial", "Farming-fishing",
 "Handlers-cleaners", "Machine-op-inspct", "Other-service", "Priv-house-serv",
@@ -119,7 +127,11 @@ nativeCountryLabels = [
 ]
 
 # Run the plot
-# plot_field(workClass, workclassLabels)
-# plot_field(nativeCountry, nativeCountryLabels)
-# plot_field(occupation, occupationLabels)
+plot_field(workClass, workclassLabels)
 plot_field(education, educationLabels)
+plot_field(maritalStatus, maritalstatusLabels)
+plot_field(occupation, occupationLabels)
+plot_field(relationship, relationshipLabels)
+plot_field(race, raceLabels)
+plot_field(sex, sexLabels)
+plot_field(nativeCountry, nativeCountryLabels)

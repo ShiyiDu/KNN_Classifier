@@ -196,33 +196,18 @@ y = train_data["<=50k"]
 X_test = test_data.drop("<=50k", axis=1)
 y_test = test_data["<=50k"]
 
+# irrelevant_features = ["native-country", "workclass", "race", "relationship"]
 irrelevant_features = ["native-country"]
-categorical_features = ["workclass", "education", "marital-status", "occupation", "relationship", "race"]
+categorical_features = ["workclass", "education", "marital-status", "occupation", "relationship", "race", "native-country"]
+
+for feature in irrelevant_features:
+    categorical_features.remove(feature)
 
 X = X.drop(irrelevant_features, axis=1)
 X_test = X_test.drop(irrelevant_features, axis=1)
 
-# encoder = OneHotEncoder(handle_unknown="ignore", sparse=False)
-#
-# # One Hot Encoding the categorical_features
-# train_cols = pd.DataFrame(encoder.fit_transform(X[categorical_features]))
-# test_cols = pd.DataFrame(encoder.transform(X_test[categorical_features]))
-# # Put the index back
-# train_cols.index = X.index
-# test_cols.index = X_test.index
-#
-# # Drop the old categorical columns
-# num_X = X.drop(categorical_features, axis=1)
-# num_X_test = X_test.drop(categorical_features, axis=1)
-#
-# # Merger the encoding with the remainders of data.
-# encoded_X = pd.concat([num_X, train_cols], axis=1)
-# encoded_X_test = pd.concat([num_X_test, test_cols], axis=1)
-#
-# new_train_data = pd.concat([encoded_X, y], axis=1)
-# new_test_data = pd.concat([encoded_X_test, y_test], axis=1)
-#
-# print(new_train_data.head())
+
+#  first, third, eighth, eleventh feature
 
 # https://stackoverflow.com/questions/37292872/how-can-i-one-hot-encode-in-python
 def encode_and_bind(original_dataframe, feature_to_encode):
@@ -234,6 +219,25 @@ def encode_and_bind(original_dataframe, feature_to_encode):
 for feature in categorical_features:
     X = encode_and_bind(X, feature)
     X_test = encode_and_bind(X_test, feature)
+
+# Check if there's any missing collumns between the train_data and the test_data
+train_cols_size = len(X.columns)
+test_cold_size = len(X_test.columns)
+
+if(train_cols_size > test_cold_size):
+    for col in X.columns:
+        if not col in X_test.columns:
+            index = X.columns.get_loc(col)
+            value = np.zeros(len(X_test))
+            X_test.insert(loc=index, column=col, value=value)
+elif (train_cols_size < test_cold_size):
+    for col in X_test.columns:
+        if not col in X.columns:
+            index = X_test.columns.get_loc(col)
+            value = np.zeros(len(X_test))
+            X.insert(loc=index, column=col, value=value)
+else:
+    print("Training data and test data have the same columns after OHE.")
 
 new_train_data = pd.concat([X, y], axis=1)
 new_test_data = pd.concat([X_test, y_test], axis=1)
