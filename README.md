@@ -1,5 +1,5 @@
 # KNN_Project
-This is the project we did for EECS4404 machine learning course. Here we played around with KNN model on the dataset we downloaded from [here](https://archive.ics.uci.edu/ml/datasets/Adult).
+This is the project we did for EECS4404 machine learning course. Here we played around with KNN Classifier on the dataset we downloaded from [here](https://archive.ics.uci.edu/ml/datasets/Adult).
 
 ## Data Preprocessing
 The original data consists of both numeric values and categorical string values. I mapped string values to numbers, removed all the entries with empty values(2399 of them), split the data 80/20 for training/testing, and balanced the training data to make sure the training data has 50% of each class. The processed training data is at [Main/trainingAdult.data](https://github.com/ShiyiDu/EECS4404_KNN_Project/blob/main/Main/trainingAdult.data), the processed test data is at [Main/testingAdult.test](https://github.com/ShiyiDu/EECS4404_KNN_Project/blob/main/Main/testingAdult.test)
