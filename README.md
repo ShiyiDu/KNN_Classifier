@@ -1,4 +1,4 @@
-# EECS4404_KNN_Project
+# KNN_Project
 This is the project we did for EECS4404 machine learning course. Here we played around with KNN model on the dataset we downloaded from [here](https://archive.ics.uci.edu/ml/datasets/Adult).
 
 ## Data Preprocessing
