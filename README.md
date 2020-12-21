@@ -59,3 +59,6 @@ The next phase of GA is the crossover; During this stage, the other half of the 
 
 ### Mutation
 During the mutation stage, all the individuals selected to go to the next generation have a 10% chance of mutation. If it mutates, one of its genes is chosen randomly, and its value is randomly selected from the gene pool.
+
+### Conclusion
+Although after applying GA, the accuracy improvement is marginal, GA did help us identify which features are entirely useless. For example, the third gene is almost always 0 for every generation's best individual, which tells us that this feature does not contribute to its accuracy. If we want to simplify the model, these features with a coefficient of 0 might be selected to be removed.
